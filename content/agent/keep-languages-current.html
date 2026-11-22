@@ -1,0 +1,71 @@
+<!-- "Keep every language current", below "With your agent", in G's markup. The free way first, then one marked Locize
+     block. What it says about i18next-cli is checked against 1.91.3: extract and status catch new keys; sync
+     --changed-only adds new keys and keeps existing translations, so a changed English value under the same key is
+     reported by no command. Prompt test 2026-11-20: Claude Sonnet 5.5 and Haiku 5.5 each built it from a start
+     project, all checks passed; other agents not yet. -->
+<pre>I changed English texts on this branch. Bring every other language up to date:
+1. Run `npx i18next-cli extract`, so new keys reach every language file.
+2. For every key whose English value changed
+   (`git diff <span class="ph">[main]</span> -- <span class="ph">[src/locales/en]</span>`), translate the same key
+   again in every other language.
+3. Run `npx i18next-cli status` and `npx i18next-cli lint`; both must pass,
+   and lint must not warn about a missing placeholder.
+List the keys you changed per language.</pre>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>What your agent does</h2>
+      <ol class="checklist">
+        <li>Runs <code>npx i18next-cli extract</code>, so new keys reach every language file.</li>
+        <li>Reads <code>git diff</code> on the English files and translates every key whose English value changed again, in
+          every other language.</li>
+        <li>Runs <code>npx i18next-cli status</code> and <code>npx i18next-cli lint</code>; both pass, and lint reports no missing placeholder.</li>
+        <li>Lists the keys it changed, per language.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>Two kinds of change</h2>
+      <ul class="checklist">
+        <li><strong>A new text</strong> gets a new key. <code>i18next-cli extract</code> writes it into every language file,
+          and <code>i18next-cli status</code> reports it as missing until it is translated. In CI, before the build, that
+          stops the deploy.</li>
+        <li><strong>A changed text under the same key</strong> keeps its old translations, and when the English is edited in
+          the translation file, no i18next-cli command reports it: <code>status</code> counts the key as translated. Step 2 of the prompt closes that gap from the git diff. When
+          the meaning changes, a new key is the safer way: then <code>status</code> reports it in every language.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>Two ways to keep the other languages current</h2>
+      <div class="ways">
+        <div class="way">
+          <h3>The agent translates from the diff</h3>
+          <p class="end">Step 2 of the prompt reads <code>git diff</code> on the English files and translates every key whose English
+            changed again, in every language. It costs nothing extra and fits when one person or the agent keeps the languages.</p>
+        </div>
+        <locize-block title="Locize marks what changed" href="https://www.locize.com/docs/review-workflow" link="The review workflow in Locize">
+          <p>When the English text of a translated key changes in Locize (edited there, or synced from the repository with
+            <code>locize-sync --update-values</code>), Locize marks that key's translation in every language as
+            needing review (the setting "Review on source change", on by default). Translators and reviewers who do not code
+            see per language what to re-check, in a web editor. It fits when several people translate, or when a missed
+            change costs more than the setup.</p>
+        </locize-block>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>Before it goes live</h2>
+      <ul class="checklist">
+        <li>Have each changed translation read by someone who speaks the language. An agent's translation is a first draft.</li>
+        <li>Compare the agent's list with the diff: every English key that changed appears in every language.</li>
+        <li>Add <code>npx i18next-cli status</code> to CI, so a new text without its translation stops the build.</li>
+      </ul>
+    </div>
+  </section>

@@ -1,0 +1,189 @@
+/* What prototype G has no style for. Placeholder, like site.css. */
+.shell-search { position: relative; }
+.shell-search input { font: inherit; color: var(--text); }
+.shell-hits { position: absolute; right: 0; top: 40px; width: min(440px, 90vw); max-height: 70vh; overflow: auto; margin: 0; padding: 6px;
+  list-style: none; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 30px rgb(0 0 0 / .15); z-index: 30; }
+.shell-hits li { padding: var(--space-2) var(--space-3); font-size: var(--fs-text); }
+.shell-hits a { display: block; color: var(--text); text-decoration: none; }
+.shell-hits a:hover strong { text-decoration: underline; }
+.shell-hits span { display: block; color: var(--text-soft); margin-top: var(--space-1); }
+/* GitBook hints: G's .aside takes its first <strong> as a title; in the docs it is running text. */
+.aside.hint strong:first-child { display: inline; font-size: inherit; text-transform: none; letter-spacing: normal; margin: 0; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--space-4); margin: var(--space-5) 0; }
+.card-link { display: block; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; color: var(--text); text-decoration: none; font-size: var(--fs-text); }
+.card-link img { width: 100%; display: block; }
+.card-link p { margin: var(--space-3); }
+.page-narrow { max-width: 760px; padding-top: 40px; }
+.not-found { padding-top: var(--space-7); padding-bottom: var(--space-7); }
+/* G hides its search field below 860px; the docs keep a narrow one. */
+@media (max-width: 860px) { .shell-search input.search { display: flex; width: 130px; } }
+.doc img { max-width: 100%; height: auto; }
+/* A part of a docs page about Locize (2.10): a box in the Locize look ({% locize %} in the Markdown, src/gitbook.js). */
+.locize-part { border-radius: 12px; padding: var(--space-5); margin: 0 0 var(--space-5); }
+.locize-part > :first-child { margin-top: 0; }
+.locize-part > :last-child { margin-bottom: 0; }
+/* A prompt box in the docs (2.6) stands on its own; the paragraph that explains it is quiet, as a note. */
+.docs .doc .prompt { margin: 0 0 var(--space-5); }
+.docs .doc .prompt + p { font-size: var(--fs-text); color: var(--text-soft); }
+/* an image with its caption: flush with the text (not the browser's 40 px indent), the caption as a note */
+.docs .doc figure, .post figure:not(.bars) { margin: 0 0 var(--space-5); }
+.docs .doc figcaption, .post figure:not(.bars) figcaption { font-size: var(--fs-text); color: var(--text-soft); margin-top: var(--space-2); }
+.docs .doc figcaption p { margin: 0; }
+.doc table { display: block; overflow-x: auto; }
+.footer { margin-top: var(--space-7); }
+.shell-legal { display: flex; gap: var(--space-4); margin-top: var(--space-5); }
+.shell-legal a, .shell-legal button { color: var(--text-soft); background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
+.youtube-player { aspect-ratio: 16 / 9; margin: 0 0 var(--space-5); }
+.youtube-player iframe { width: 100%; height: 100%; border: 0; border-radius: 8px; }
+/* The consent banner (vanilla-cookieconsent) in G's roles, so it follows the theme; its two main buttons stay neutral
+   and of equal weight */
+html #cc-main { --cc-font-family: var(--font); --cc-bg: var(--surface); --cc-primary-color: var(--text);
+  --cc-secondary-color: var(--text-soft); --cc-link-color: var(--accent); --cc-separator-border-color: var(--line);
+  --cc-btn-primary-bg: var(--text); --cc-btn-primary-color: var(--bg); --cc-btn-primary-border-color: var(--text);
+  --cc-btn-primary-hover-bg: var(--text-soft); --cc-btn-primary-hover-border-color: var(--text-soft);
+  --cc-btn-secondary-border-color: var(--line);
+  --cc-btn-primary-hover-color: var(--bg); --cc-btn-secondary-bg: var(--bg-soft); --cc-btn-secondary-color: var(--text);
+  --cc-btn-secondary-hover-bg: var(--line); --cc-btn-secondary-hover-color: var(--text);
+  --cc-btn-secondary-hover-border-color: var(--line); --cc-footer-bg: var(--bg-soft); --cc-footer-color: var(--text-soft);
+  --cc-footer-border-color: var(--line); --cc-cookie-category-block-bg: var(--bg-soft);
+  --cc-cookie-category-block-border: var(--line); --cc-cookie-category-block-hover-bg: var(--line);
+  --cc-cookie-category-block-hover-border: var(--line); --cc-cookie-category-expanded-block-hover-bg: var(--line);
+  --cc-toggle-off-bg: var(--text-faint); --cc-toggle-readonly-bg: var(--line); --cc-toggle-readonly-knob-bg: var(--surface);
+  --cc-overlay-bg: var(--veil); }
+/* the veil behind the preferences dialog lets the page be sensed */
+html #cc-main .pm-overlay { backdrop-filter: blur(2px); }
+/* the banner's own sizes onto the roles: its title an item's title, its buttons the text size */
+html #cc-main :is(.cm__title, .pm__title) { font-size: var(--fs-item); }
+html #cc-main :is(.cm__btn, .pm__btn) { font-size: var(--fs-text); }
+.youtube-consent { border: 1px dashed var(--line); border-radius: 12px; padding: var(--space-3) var(--space-4); margin: 0 0 var(--space-5); font-size: var(--fs-text); }
+.youtube-consent p:last-child { margin: 0; display: flex; gap: var(--space-4); align-items: center; }
+.youtube-consent button { font: inherit; color: var(--text-soft); background: none; border: 1px solid var(--line); border-radius: 6px; padding: var(--space-1) var(--space-3); cursor: pointer; }
+/* Blog (a proposal in G's style): newest post large, then cards; posts in a reading column. */
+.blog { padding-top: var(--space-7); padding-bottom: var(--space-7); }
+.blog-head { max-width: 62ch; margin-bottom: var(--space-5); }
+/* the page title, as an agent page's */
+.blog-head h1 { font-size: clamp(32px, 5vw, 52px); font-weight: 500; letter-spacing: -.02em; margin-bottom: var(--space-3); }
+.blog-head .lead { font-size: 17px; color: var(--text-soft); margin: 0; }
+.post-card { display: grid; gap: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface);
+  color: var(--text); text-decoration: none; }
+.post-card:hover { border-color: var(--accent); }
+.post-card img { width: 100%; aspect-ratio: 1200 / 630; object-fit: cover; display: block; background: var(--code-bg); }
+.post-card-text { padding: var(--space-5); }
+.post-card h2 { font-size: var(--fs-item); font-weight: 600; letter-spacing: 0; margin: 0 0 var(--space-2); }
+.post-card.featured { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); align-items: center; }
+.post-card.featured h2 { font: 500 26px/1.2 var(--font-voice); letter-spacing: -.01em; }
+.post-card .post-teaser { margin: 0 0 var(--space-3); font-size: var(--fs-text); color: var(--text-soft); }
+.post-card .post-topic { font: 600 var(--fs-label) var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin: 0 0 var(--space-2); }
+.post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-4); margin-top: var(--space-4); }
+.post-meta { color: var(--text-faint); font-size: var(--fs-text); margin: 0 0 var(--space-5); }
+.post-card .post-meta { margin: 0; }
+.post { max-width: 760px; padding-top: var(--space-7); }
+.post-cover { width: 100%; border-radius: 12px; border: 1px solid var(--line); margin: 0 0 var(--space-5); display: block; }
+.post .page-tools { display: flex; gap: var(--space-4); margin-top: var(--space-6); }
+.post-page .post .page-tools { margin: 0 0 var(--space-5); }
+@media (max-width: 860px) { .post-card.featured { grid-template-columns: minmax(0, 1fr); } .post-card.featured h2 { font-size: 22px; } }
+/* Phones: G's nav keeps the top row, the search gets its own row below it. */
+@media (max-width: 560px) {
+  .topbar .wrap { flex-wrap: wrap; height: auto; padding-top: 6px; padding-bottom: 8px; row-gap: 4px; }
+  .topbar .tools { display: contents; }
+  .shell-search { order: 10; flex-basis: 100%; }
+  .shell-search input.search { width: 100%; }
+}
+/* The logo band on the home page: a favicon and the name per site, in G's .logos grid (instead of .logo-ph). */
+.logo { display: flex; align-items: center; gap: var(--space-2); height: 48px; padding: 0 var(--space-2); border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface); color: var(--text-soft); font: 500 var(--fs-meta) var(--font); min-width: 0; } /* a name must fit eight to a row */
+.logo img { width: 24px; height: 24px; border-radius: 4px; flex: none; background: var(--logo-tile); box-shadow: 0 0 0 3px var(--logo-tile); } /* a tile around the box: the layout stays */
+.logo span { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-height: 1.15; } /* long names wrap (three lines fit the tile) */
+/* Phones: four logos a row, names only for screen readers (cut names read worse than none). */
+@media (max-width: 560px) {
+  .logo { height: 44px; justify-content: center; position: relative; }
+  .logo span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
+/* Syntax colors from rehype-highlight (highlight.js classes), mapped onto G's code tokens: keys and keywords,
+   strings, comments. Everything else keeps the code text color, as in G's hand-colored blocks. */
+.hljs-keyword, .hljs-built_in, .hljs-literal, .hljs-number, .hljs-attr, .hljs-name, .hljs-selector-tag, .hljs-type { color: var(--code-key); }
+.hljs-string, .hljs-regexp, .hljs-template-variable, .hljs-addition, .hljs-symbol { color: var(--code-str); }
+.hljs-comment, .hljs-meta, .hljs-deletion, .hljs-quote { color: var(--code-faint); }
+/* "Who uses i18next": figures, bar charts and the full list, rendered from content/usage.json at build. */
+.usage-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-3); margin: var(--space-5) 0; }
+.usage-stats div { border: 1px solid var(--line); border-radius: 10px; padding: var(--space-3) var(--space-4); background: var(--surface); }
+.usage-stats dt { font: 600 26px var(--font); color: var(--text); } /* a figure, not a link: no accent */
+.usage-stats dd { margin: var(--space-1) 0 0; font-size: var(--fs-text); color: var(--text-soft); }
+.bars { margin: var(--space-5) 0; }
+.bars figcaption { font-size: var(--fs-text); color: var(--text-soft); margin-bottom: var(--space-3); }
+.bar { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr) 4rem; gap: var(--space-3); align-items: center; margin: var(--space-2) 0; font-size: var(--fs-text); }
+.bar-label { text-align: right; color: var(--text-soft); }
+.bar-track { background: var(--bg-soft); border-radius: 4px; height: 18px; }
+.bar-fill { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.bar-num { font: var(--fs-meta) var(--font-mono); color: var(--text-soft); }
+.usage-brands { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.site-list summary { cursor: pointer; font-weight: 600; margin: 12px 0; }
+.site-list table { display: table; }
+.site-list small { color: var(--text-faint); font-size: var(--fs-meta); }
+@media (max-width: 860px) { .usage-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .usage-stats { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 560px) {
+  .bar { grid-template-columns: minmax(0, 8rem) minmax(0, 1fr) 3rem; }
+  /* the post's sixty sites: two a row with their names (the start page's band shows favicons only) */
+  .usage-brands { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .usage-brands .logo { justify-content: flex-start; }
+  .usage-brands .logo span { position: static; width: auto; height: auto; clip-path: none; white-space: normal; }
+}
+@media (max-width: 560px) { .brand img { margin: 0; height: 36px; } }
+/* Page tools: G's links, and the copy button that looks like them. */
+.page-tools button { font: inherit; color: var(--text-faint); background: none; border: 0; padding: 0; cursor: pointer; }
+.page-tools button:hover { color: var(--text); }
+/* "On this page": G's third column; long pages scroll inside it. Below 1100 px G hides it, so it folds above the text. */
+.toc { max-height: calc(100vh - 140px); overflow-y: auto; }
+.toc-inline { display: none; margin: 0 0 var(--space-5); border: 1px solid var(--line); border-radius: 8px; padding: var(--space-2) var(--space-3); font-size: var(--fs-text); }
+.toc-inline summary { cursor: pointer; font-weight: 600; }
+.toc-inline ul { list-style: none; padding: 0; margin: var(--space-2) 0 0; }
+.toc-inline li.sub { padding-left: var(--space-3); }
+.toc-inline a { color: var(--text-soft); text-decoration: none; display: block; padding: var(--space-1) 0; }
+@media (max-width: 1100px) { .toc-inline { display: block; } }
+/* the page title, as an agent page's: above its section titles in size, at the titles' weight */
+.not-found h1 { font-size: clamp(32px, 5vw, 52px); font-weight: 500; letter-spacing: -.02em; margin-bottom: var(--space-3); }
+.not-found .lead { font-size: 17px; color: var(--text-soft); max-width: 62ch; }
+.not-found .h-title { margin-top: var(--space-6); }
+.not-found .h-docs span mark { background: none; color: var(--text); font-weight: 600; }
+/* A group heading after an untitled first group (Introduction) needs the gap G's :first-of-type rule takes away. */
+.sidebar .side-inner ul + h5 { margin-top: var(--space-5); }
+/* The section's repository: the GitHub mark alone atop the menu, so no entry in the menu leaves the site. */
+.sidebar .side-repo { margin-bottom: var(--space-4); }
+
+/* A section of one page has no menu; the text stays in the column it has on every other docs page. */
+.docs.single .doc { grid-column: 2; }
+@media (max-width: 860px) { .docs.single .doc { grid-column: auto; } }
+/* Phones: a table row stands as a block, each cell under its column's label (data-label, set at build). */
+@media (max-width: 560px) {
+  .doc table:has(td[data-label]) { display: block; overflow: visible; }
+  .doc table:has(td[data-label]) thead { display: none; }
+  .doc table:has(td[data-label]) :is(tbody, tr, td) { display: block; }
+  .doc table:has(td[data-label]) tr { padding: var(--space-3) 0; border-bottom: 1px solid var(--line); }
+  .doc table:has(td[data-label]) td { border: 0; padding: var(--space-1) 0; }
+  .doc table:has(td[data-label]) td:first-child { font-weight: 600; }
+  .doc table:has(td[data-label]) td:not(:first-child)::before { content: attr(data-label) ": "; color: var(--text-faint); }
+}
+
+/* Blog post (after locize.com's posts, without sign-up boxes): title and meta beside the cover, then the text with
+   "On this page" in a third column as on docs pages; key takeaways as a box at the top, related posts at the end. */
+.post-page { padding-top: var(--space-7); max-width: 1120px; } /* header, text and "On this page" as one block, also on wide screens */
+.post-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 520px); gap: 40px; align-items: center;
+  padding-bottom: var(--space-5); border-bottom: 1px solid var(--line); }
+.post-head h1 { font-size: clamp(30px, 4vw, 44px); font-weight: 500; letter-spacing: -.02em; line-height: 1.15; margin: var(--space-2) 0 var(--space-3); }
+.post-head .post-meta { margin: 0; }
+.post-head .post-cover { margin: 0; }
+.post-layout { display: grid; grid-template-columns: minmax(0, 760px) 220px; gap: 56px; justify-content: space-between; }
+.post-layout.no-toc { grid-template-columns: minmax(0, 760px); }
+.post-page .post { max-width: none; padding: var(--space-5) 0 var(--space-7); }
+.takeaways { border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 10px; background: var(--surface);
+  padding: var(--space-1) var(--space-5) var(--space-2); margin: 0 0 var(--space-5); }
+.takeaways h2 { font-size: var(--fs-item); font-weight: 600; margin: var(--space-3) 0 var(--space-1); padding: 0; }
+.takeaways ul { margin: 0 0 var(--space-3); }
+.post-related h2 { font-size: 24px; font-weight: 600; margin: 0 0 var(--space-3); padding: 0; }
+.post-related { margin-top: var(--space-7); padding-top: var(--space-5); border-top: 1px solid var(--line); }
+.post-related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--space-4); }
+.post-related .post-card { text-decoration: none; color: inherit; }
+.post-related .post-card h3 { font-size: var(--fs-item); font-weight: 600; line-height: 1.3; margin: 0 0 var(--space-2); }
+@media (max-width: 1100px) { .post-layout { grid-template-columns: minmax(0, 1fr); } .post-layout .toc { display: none; } }
+@media (max-width: 860px) { .post-head { grid-template-columns: minmax(0, 1fr); gap: var(--space-5); } }

@@ -1,0 +1,7797 @@
+{
+  "meta": {
+    "source": "Majestic Million top 100k",
+    "crawled": "2026-11",
+    "method": "i18next code in the scripts a home page loads (vendor widgets excluded), plain fetch plus a browser for the sites it could not settle"
+  },
+  "scanned": 99924,
+  "hits": 1188,
+  "reachable": 85186,
+  "unreachable": 8418,
+  "pctReachable": 1.39,
+  "frameworks": {
+    "react-i18next": 636,
+    "next-i18next": 250,
+    "other bindings": 11,
+    "bundled (binding not exposed)": 291
+  },
+  "render": {
+    "unknown": 927,
+    "client": 22,
+    "ssr": 239
+  },
+  "density": [
+    {
+      "band": "0k–10k",
+      "count": 217
+    },
+    {
+      "band": "10k–20k",
+      "count": 166
+    },
+    {
+      "band": "20k–30k",
+      "count": 118
+    },
+    {
+      "band": "30k–40k",
+      "count": 132
+    },
+    {
+      "band": "40k–50k",
+      "count": 115
+    },
+    {
+      "band": "50k–60k",
+      "count": 94
+    },
+    {
+      "band": "60k–70k",
+      "count": 96
+    },
+    {
+      "band": "70k–80k",
+      "count": 89
+    },
+    {
+      "band": "80k–90k",
+      "count": 79
+    },
+    {
+      "band": "90k–100k",
+      "count": 82
+    }
+  ],
+  "brands": [
+    {
+      "name": "X",
+      "domain": "x.com",
+      "href": "https://x.com"
+    },
+    {
+      "name": "Xiaomi",
+      "domain": "mi.com",
+      "href": "https://mi.com"
+    },
+    {
+      "name": "Snowflake",
+      "domain": "snowflake.com",
+      "href": "https://snowflake.com"
+    },
+    {
+      "name": "NBC News",
+      "domain": "nbcnews.com",
+      "href": "https://nbcnews.com"
+    },
+    {
+      "name": "BuzzFeed",
+      "domain": "buzzfeed.com",
+      "href": "https://buzzfeed.com"
+    },
+    {
+      "name": "WEF",
+      "domain": "weforum.org",
+      "href": "https://weforum.org"
+    },
+    {
+      "name": "Deezer",
+      "domain": "deezer.com",
+      "href": "https://deezer.com"
+    },
+    {
+      "name": "Freepik",
+      "domain": "freepik.com",
+      "href": "https://freepik.com"
+    },
+    {
+      "name": "Elsevier",
+      "domain": "elsevier.com",
+      "href": "https://elsevier.com"
+    },
+    {
+      "name": "Guggenheim Bilbao",
+      "domain": "guggenheim-bilbao.eus",
+      "href": "https://guggenheim-bilbao.eus"
+    },
+    {
+      "name": "Eventbrite",
+      "domain": "eventbrite.com",
+      "href": "https://eventbrite.com"
+    },
+    {
+      "name": "GoFundMe",
+      "domain": "gofundme.com",
+      "href": "https://gofundme.com"
+    },
+    {
+      "name": "CoinMarketCap",
+      "domain": "coinmarketcap.com",
+      "href": "https://coinmarketcap.com"
+    },
+    {
+      "name": "Kraken",
+      "domain": "kraken.com",
+      "href": "https://kraken.com"
+    },
+    {
+      "name": "Crypto.com",
+      "domain": "crypto.com",
+      "href": "https://crypto.com"
+    },
+    {
+      "name": "Cash App",
+      "domain": "cash.app",
+      "href": "https://cash.app"
+    },
+    {
+      "name": "Rakuten",
+      "domain": "rakuten.com",
+      "href": "https://rakuten.com"
+    },
+    {
+      "name": "Strava",
+      "domain": "strava.com",
+      "href": "https://strava.com"
+    },
+    {
+      "name": "UEFA",
+      "domain": "uefa.com",
+      "href": "https://uefa.com"
+    },
+    {
+      "name": "DeepL",
+      "domain": "deepl.com",
+      "href": "https://deepl.com"
+    },
+    {
+      "name": "Burberry",
+      "domain": "burberry.com",
+      "href": "https://burberry.com"
+    },
+    {
+      "name": "Cartier",
+      "domain": "cartier.com",
+      "href": "https://cartier.com"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "domain": "mercedes-benz.com",
+      "href": "https://mercedes-benz.com"
+    },
+    {
+      "name": "Marks & Spencer",
+      "domain": "marksandspencer.com",
+      "href": "https://marksandspencer.com"
+    },
+    {
+      "name": "Groupon",
+      "domain": "groupon.com",
+      "href": "https://groupon.com"
+    },
+    {
+      "name": "British Airways",
+      "domain": "britishairways.com",
+      "href": "https://britishairways.com"
+    },
+    {
+      "name": "Singapore Airlines",
+      "domain": "singaporeair.com",
+      "href": "https://singaporeair.com"
+    },
+    {
+      "name": "Iberia",
+      "domain": "iberia.com",
+      "href": "https://iberia.com"
+    },
+    {
+      "name": "Eurostar",
+      "domain": "eurostar.com",
+      "href": "https://eurostar.com"
+    },
+    {
+      "name": "AirAsia",
+      "domain": "airasia.com",
+      "href": "https://airasia.com"
+    },
+    {
+      "name": "LATAM Airlines",
+      "domain": "latamairlines.com",
+      "href": "https://latamairlines.com"
+    },
+    {
+      "name": "Tommy Hilfiger",
+      "domain": "tommy.com",
+      "href": "https://tommy.com"
+    },
+    {
+      "name": "Nikon USA",
+      "domain": "nikonusa.com",
+      "href": "https://nikonusa.com"
+    },
+    {
+      "name": "Victorinox",
+      "domain": "victorinox.com",
+      "href": "https://victorinox.com"
+    },
+    {
+      "name": "Arc'teryx",
+      "domain": "arcteryx.com",
+      "href": "https://arcteryx.com"
+    },
+    {
+      "name": "Charlotte Tilbury",
+      "domain": "charlottetilbury.com",
+      "href": "https://charlottetilbury.com"
+    },
+    {
+      "name": "LaLiga",
+      "domain": "laliga.com",
+      "href": "https://laliga.com"
+    },
+    {
+      "name": "Juventus",
+      "domain": "juventus.com",
+      "href": "https://juventus.com"
+    },
+    {
+      "name": "iHeart",
+      "domain": "iheart.com",
+      "href": "https://iheart.com"
+    },
+    {
+      "name": "Suno",
+      "domain": "suno.com",
+      "href": "https://suno.com"
+    },
+    {
+      "name": "Hootsuite",
+      "domain": "hootsuite.com",
+      "href": "https://hootsuite.com"
+    },
+    {
+      "name": "Contentsquare",
+      "domain": "contentsquare.com",
+      "href": "https://contentsquare.com"
+    },
+    {
+      "name": "Meituan",
+      "domain": "meituan.com",
+      "href": "https://meituan.com"
+    },
+    {
+      "name": "AWS re:Post",
+      "domain": "repost.aws",
+      "href": "https://repost.aws"
+    },
+    {
+      "name": "Cisco Networking Academy",
+      "domain": "netacad.com",
+      "href": "https://netacad.com"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "domain": "take2games.com",
+      "href": "https://take2games.com"
+    },
+    {
+      "name": "Doctolib",
+      "domain": "doctolib.fr",
+      "href": "https://doctolib.fr"
+    },
+    {
+      "name": "AXA",
+      "domain": "axa.com",
+      "href": "https://axa.com"
+    },
+    {
+      "name": "freeCodeCamp",
+      "domain": "freecodecamp.org",
+      "href": "https://freecodecamp.org"
+    },
+    {
+      "name": "Grab",
+      "domain": "grab.com",
+      "href": "https://grab.com"
+    },
+    {
+      "name": "NBA",
+      "domain": "nba.com",
+      "href": "https://nba.com"
+    },
+    {
+      "name": "IMF",
+      "domain": "imf.org",
+      "href": "https://imf.org"
+    },
+    {
+      "name": "Lufthansa",
+      "domain": "lufthansa.com",
+      "href": "https://lufthansa.com"
+    },
+    {
+      "name": "Glassdoor",
+      "domain": "glassdoor.com",
+      "href": "https://glassdoor.com"
+    },
+    {
+      "name": "Adobe Stock",
+      "domain": "stock.adobe.com",
+      "href": "https://stock.adobe.com"
+    },
+    {
+      "name": "Quizlet",
+      "domain": "quizlet.com",
+      "href": "https://quizlet.com"
+    },
+    {
+      "name": "LeetCode",
+      "domain": "leetcode.com",
+      "href": "https://leetcode.com"
+    },
+    {
+      "name": "Decathlon",
+      "domain": "decathlon.fr",
+      "href": "https://decathlon.fr"
+    },
+    {
+      "name": "MediaMarkt",
+      "domain": "mediamarkt.de",
+      "href": "https://mediamarkt.de"
+    },
+    {
+      "name": "StockX",
+      "domain": "stockx.com",
+      "href": "https://stockx.com"
+    }
+  ],
+  "sites": [
+    {
+      "rank": 16,
+      "domain": "x.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "twitter.com"
+      ]
+    },
+    {
+      "rank": 104,
+      "domain": "tinyurl.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 176,
+      "domain": "eventbrite.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "lanyrd.com"
+      ]
+    },
+    {
+      "rank": 293,
+      "domain": "weforum.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 317,
+      "domain": "academia.edu",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 323,
+      "domain": "nbcnews.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 420,
+      "domain": "gofundme.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "gofund.me",
+        "gf.me"
+      ]
+    },
+    {
+      "rank": 429,
+      "domain": "elsevier.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "bepress.com",
+        "elsevier.es",
+        "elsevier.nl"
+      ]
+    },
+    {
+      "rank": 453,
+      "domain": "uchicago.edu",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 479,
+      "domain": "globenewswire.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "marketwire.com",
+        "marketwired.com"
+      ]
+    },
+    {
+      "rank": 568,
+      "domain": "buzzfeed.com",
+      "framework": "next-i18next",
+      "ssr": false,
+      "aka": [
+        "buzzfed.com"
+      ]
+    },
+    {
+      "rank": 572,
+      "domain": "imf.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 611,
+      "domain": "magnific.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "freepik.com",
+        "freepik.es",
+        "magnific.ai"
+      ]
+    },
+    {
+      "rank": 713,
+      "domain": "getpocket.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 714,
+      "domain": "mi.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "xiaomi.com"
+      ]
+    },
+    {
+      "rank": 744,
+      "domain": "altervista.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 769,
+      "domain": "deezer.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 807,
+      "domain": "binance.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 865,
+      "domain": "speedtest.net",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 891,
+      "domain": "dreamhost.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "dreambook.com"
+      ]
+    },
+    {
+      "rank": 939,
+      "domain": "eventbrite.co.uk",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 959,
+      "domain": "xiaohongshu.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "xhslink.com",
+        "xhslink.cn"
+      ]
+    },
+    {
+      "rank": 966,
+      "domain": "hootsuite.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "seesmic.com"
+      ]
+    },
+    {
+      "rank": 974,
+      "domain": "nba.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 984,
+      "domain": "iheart.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 996,
+      "domain": "zenodo.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 1099,
+      "domain": "repubblica.it",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 1121,
+      "domain": "strava.com",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 1163,
+      "domain": "gitee.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 1171,
+      "domain": "deepl.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 1234,
+      "domain": "findlaw.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 1261,
+      "domain": "uefa.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 1265,
+      "domain": "glassdoor.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 1332,
+      "domain": "contentsquare.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "hotjar.com",
+        "clicktale.com"
+      ]
+    },
+    {
+      "rank": 1340,
+      "domain": "coinmarketcap.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 1398,
+      "domain": "arte.tv",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "arte-tv.com"
+      ]
+    },
+    {
+      "rank": 1524,
+      "domain": "aa.com.tr",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 1549,
+      "domain": "flipboard.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "share.flipboard.com",
+        "flip.it"
+      ]
+    },
+    {
+      "rank": 1587,
+      "domain": "stock.adobe.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "fotolia.com"
+      ]
+    },
+    {
+      "rank": 1612,
+      "domain": "yolasite.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 1677,
+      "domain": "genius.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 1685,
+      "domain": "justgiving.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "everydayhero.com"
+      ]
+    },
+    {
+      "rank": 1698,
+      "domain": "tally.so",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 1830,
+      "domain": "infogram.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "infogr.am"
+      ]
+    },
+    {
+      "rank": 1930,
+      "domain": "rijksoverheid.nl",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "minbuza.nl"
+      ]
+    },
+    {
+      "rank": 1954,
+      "domain": "freecodecamp.org",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "freecodecamp.com"
+      ]
+    },
+    {
+      "rank": 1976,
+      "domain": "adage.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "creativity-online.com"
+      ]
+    },
+    {
+      "rank": 2050,
+      "domain": "rakuten.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "buy.com",
+        "ebates.com",
+        "fatwallet.com"
+      ]
+    },
+    {
+      "rank": 2057,
+      "domain": "lufthansa.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 2183,
+      "domain": "kobo.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "kobobooks.com"
+      ]
+    },
+    {
+      "rank": 2280,
+      "domain": "medicare.gov",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2284,
+      "domain": "emojipedia.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2291,
+      "domain": "jianshu.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 2312,
+      "domain": "nationalreview.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2375,
+      "domain": "benzinga.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2389,
+      "domain": "pmi.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2403,
+      "domain": "mercedes-benz.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 2423,
+      "domain": "scoop.it",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 2494,
+      "domain": "dnspod.cn",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2500,
+      "domain": "bartleby.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2538,
+      "domain": "toasttab.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2578,
+      "domain": "nordvpn.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "nordvpn.net"
+      ]
+    },
+    {
+      "rank": 2582,
+      "domain": "suno.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "suno.ai"
+      ]
+    },
+    {
+      "rank": 2592,
+      "domain": "quizlet.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 2637,
+      "domain": "nationaltrust.org.uk",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2642,
+      "domain": "geocaching.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "coord.info"
+      ]
+    },
+    {
+      "rank": 2645,
+      "domain": "pixiv.net",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2682,
+      "domain": "britishairways.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "ba.com"
+      ]
+    },
+    {
+      "rank": 2713,
+      "domain": "wattpad.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 2883,
+      "domain": "bbcgoodfood.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2889,
+      "domain": "familysearch.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 2900,
+      "domain": "findagrave.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 2971,
+      "domain": "meltwater.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "klear.com"
+      ]
+    },
+    {
+      "rank": 2980,
+      "domain": "sgs.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 2993,
+      "domain": "bcorporation.net",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 2998,
+      "domain": "decrypt.co",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 3001,
+      "domain": "tinypng.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3086,
+      "domain": "udacity.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3104,
+      "domain": "masterclass.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3125,
+      "domain": "eventbrite.ca",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 3129,
+      "domain": "pearltrees.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 3142,
+      "domain": "gu.se",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3149,
+      "domain": "marinetraffic.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3292,
+      "domain": "groupon.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3389,
+      "domain": "uptodate.com",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 3488,
+      "domain": "kfw.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3553,
+      "domain": "ucpress.edu",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3560,
+      "domain": "plannedparenthood.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 3570,
+      "domain": "leetcode.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 3598,
+      "domain": "bestwestern.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3670,
+      "domain": "jal.co.jp",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3770,
+      "domain": "kraken.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3890,
+      "domain": "snowflake.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3920,
+      "domain": "bible.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 3981,
+      "domain": "doubao.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4052,
+      "domain": "beatport.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 4074,
+      "domain": "crypto.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4128,
+      "domain": "skool.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4143,
+      "domain": "systeme.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4162,
+      "domain": "autonews.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4179,
+      "domain": "datacamp.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 4197,
+      "domain": "undocs.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 4226,
+      "domain": "government.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4227,
+      "domain": "singaporeair.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4248,
+      "domain": "sonarsource.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "tidelift.com",
+        "sonarqube.org",
+        "sonarcloud.io"
+      ]
+    },
+    {
+      "rank": 4382,
+      "domain": "rss.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4460,
+      "domain": "lush.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 4488,
+      "domain": "cash.app",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "cash.me"
+      ]
+    },
+    {
+      "rank": 4489,
+      "domain": "escardio.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4495,
+      "domain": "marksandspencer.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 4542,
+      "domain": "eventbrite.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 4543,
+      "domain": "audiomack.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4597,
+      "domain": "mediaset.it",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 4615,
+      "domain": "figshare.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4642,
+      "domain": "casino.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4647,
+      "domain": "meituan.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 4648,
+      "domain": "mercari.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4671,
+      "domain": "danfoss.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 4736,
+      "domain": "italia.it",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 4753,
+      "domain": "htc.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4758,
+      "domain": "wwnorton.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4773,
+      "domain": "bybit.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 4803,
+      "domain": "volcengine.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4843,
+      "domain": "fcbarcelona.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4846,
+      "domain": "gob.do",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 4876,
+      "domain": "corsair.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 4877,
+      "domain": "aparat.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 4997,
+      "domain": "gate.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "gate.io"
+      ]
+    },
+    {
+      "rank": 5019,
+      "domain": "dhgate.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 5057,
+      "domain": "eventbrite.it",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 5136,
+      "domain": "radiotimes.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 5155,
+      "domain": "shangri-la.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 5180,
+      "domain": "quillbot.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 5340,
+      "domain": "doctolib.fr",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "doctolib.com"
+      ]
+    },
+    {
+      "rank": 5473,
+      "domain": "grab.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 5476,
+      "domain": "foxit.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "foxitsoftware.com"
+      ]
+    },
+    {
+      "rank": 5695,
+      "domain": "kucoin.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 5861,
+      "domain": "rvo.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 5903,
+      "domain": "qwant.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 5994,
+      "domain": "iberia.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 6045,
+      "domain": "bis.gov",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 6062,
+      "domain": "daaz.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 6105,
+      "domain": "mewe.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 6115,
+      "domain": "immobilienscout24.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 6184,
+      "domain": "cartier.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 6212,
+      "domain": "airasia.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 6226,
+      "domain": "parker.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 6368,
+      "domain": "swiss.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 6369,
+      "domain": "eventbrite.fr",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 6421,
+      "domain": "dice.fm",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 6535,
+      "domain": "eventbrite.com.au",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 6554,
+      "domain": "uni-bayreuth.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 6574,
+      "domain": "burberry.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 6642,
+      "domain": "z.ai",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 6690,
+      "domain": "scaleway.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "online.fr",
+        "scw.cloud",
+        "online.net"
+      ]
+    },
+    {
+      "rank": 6716,
+      "domain": "juris.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 6834,
+      "domain": "makerworld.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 6912,
+      "domain": "jinshuju.net",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "jsj.top"
+      ]
+    },
+    {
+      "rank": 7043,
+      "domain": "iqair.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7078,
+      "domain": "character.ai",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7275,
+      "domain": "leanpub.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 7277,
+      "domain": "chicagobusiness.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7279,
+      "domain": "marktplaats.nl",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 7284,
+      "domain": "informaconnect.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "knect365.com"
+      ]
+    },
+    {
+      "rank": 7398,
+      "domain": "ipl.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7434,
+      "domain": "austrian.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 7435,
+      "domain": "aeroflot.ru",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 7443,
+      "domain": "tommy.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 7533,
+      "domain": "eveonline.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "eve-online.com"
+      ]
+    },
+    {
+      "rank": 7536,
+      "domain": "eurostar.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "thalys.com"
+      ]
+    },
+    {
+      "rank": 7585,
+      "domain": "cedars-sinai.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7623,
+      "domain": "rosewoodhotels.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 7667,
+      "domain": "understood.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7804,
+      "domain": "bark.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7813,
+      "domain": "campaignlive.co.uk",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7815,
+      "domain": "canadahelps.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7821,
+      "domain": "nikonusa.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 7833,
+      "domain": "mlssoccer.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7931,
+      "domain": "brooklynmuseum.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 7944,
+      "domain": "knauf.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8028,
+      "domain": "s.id",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 8040,
+      "domain": "omnicalculator.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 8079,
+      "domain": "iamsterdam.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8080,
+      "domain": "scouting.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8116,
+      "domain": "backstage.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8175,
+      "domain": "onlyoffice.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 8177,
+      "domain": "tntsports.co.uk",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "eurosport.com",
+        "eurosport.co.uk",
+        "eurosportplayer.com"
+      ]
+    },
+    {
+      "rank": 8250,
+      "domain": "shop.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "tictail.com"
+      ]
+    },
+    {
+      "rank": 8410,
+      "domain": "domestika.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8479,
+      "domain": "personio.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8490,
+      "domain": "zooniverse.org",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "galaxyzoo.org"
+      ]
+    },
+    {
+      "rank": 8574,
+      "domain": "pcloud.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8575,
+      "domain": "ncl.com",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 8583,
+      "domain": "kormany.hu",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "koronavirus.gov.hu"
+      ]
+    },
+    {
+      "rank": 8584,
+      "domain": "www.gov.kz",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8624,
+      "domain": "poe.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8647,
+      "domain": "eventbrite.es",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 8662,
+      "domain": "booth.pm",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 8790,
+      "domain": "aapanel.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 8938,
+      "domain": "premierinn.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 9059,
+      "domain": "jeuneafrique.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 9115,
+      "domain": "kijiji.ca",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 9130,
+      "domain": "elgato.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 9131,
+      "domain": "mediamarkt.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 9149,
+      "domain": "museoreinasofia.es",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 9173,
+      "domain": "laliga.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "laliga.es"
+      ]
+    },
+    {
+      "rank": 9294,
+      "domain": "oec.world",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 9319,
+      "domain": "schiphol.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 9329,
+      "domain": "frieze.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 9406,
+      "domain": "tapas.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 9595,
+      "domain": "glovoapp.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 9601,
+      "domain": "latamairlines.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "latam.com",
+        "lan.com"
+      ]
+    },
+    {
+      "rank": 9720,
+      "domain": "yamaha-motor.eu",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 9779,
+      "domain": "decathlon.fr",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 9894,
+      "domain": "sf.gov",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 9946,
+      "domain": "simplyhired.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 9973,
+      "domain": "kw.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 10081,
+      "domain": "flytap.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 10094,
+      "domain": "jove.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 10149,
+      "domain": "hannover.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 10238,
+      "domain": "crainsnewyork.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10288,
+      "domain": "gettr.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10318,
+      "domain": "juventus.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10456,
+      "domain": "immowelt.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10542,
+      "domain": "modernhealthcare.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10626,
+      "domain": "ifad.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10640,
+      "domain": "beinsports.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10670,
+      "domain": "yamaha-motor.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10715,
+      "domain": "vive.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10750,
+      "domain": "kohler.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 10781,
+      "domain": "doctolib.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 10807,
+      "domain": "aptoide.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 10848,
+      "domain": "royalcanin.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 10927,
+      "domain": "gdconf.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11073,
+      "domain": "nordpass.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 11240,
+      "domain": "dnevnik.hr",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11295,
+      "domain": "seatgeek.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11340,
+      "domain": "historyextra.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11359,
+      "domain": "stepstone.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11459,
+      "domain": "aramco.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "saudiaramco.com"
+      ]
+    },
+    {
+      "rank": 11466,
+      "domain": "noradsanta.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 11554,
+      "domain": "epilepsy.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11561,
+      "domain": "stockx.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 11696,
+      "domain": "condor.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11707,
+      "domain": "visitfinland.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 11712,
+      "domain": "zrzutka.pl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11837,
+      "domain": "wanderlog.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11969,
+      "domain": "nrn.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 11982,
+      "domain": "pokernews.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12001,
+      "domain": "order.online",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12018,
+      "domain": "vocaroo.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "voca.ro"
+      ]
+    },
+    {
+      "rank": 12019,
+      "domain": "invaluable.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12042,
+      "domain": "barco.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12069,
+      "domain": "zaobao.com.sg",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "zaobao.com"
+      ]
+    },
+    {
+      "rank": 12103,
+      "domain": "freecycle.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 12114,
+      "domain": "streamyard.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 12131,
+      "domain": "tablecheck.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12176,
+      "domain": "vietnamairlines.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12187,
+      "domain": "glassdoor.co.uk",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 12209,
+      "domain": "ita-airways.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "alitalia.com"
+      ]
+    },
+    {
+      "rank": 12242,
+      "domain": "thaiairways.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12291,
+      "domain": "victorinox.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "swissarmy.com"
+      ]
+    },
+    {
+      "rank": 12402,
+      "domain": "eventbrite.nl",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 12410,
+      "domain": "bitfinex.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12524,
+      "domain": "life360.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 12635,
+      "domain": "ppc.land",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 12640,
+      "domain": "cgtrader.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12684,
+      "domain": "vestiairecollective.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 12689,
+      "domain": "netacad.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 12718,
+      "domain": "dm.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12732,
+      "domain": "farmprogress.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 12787,
+      "domain": "binance.bh",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 12817,
+      "domain": "brusselsairlines.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 12842,
+      "domain": "kaskus.co.id",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 12848,
+      "domain": "commonspirit.org",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "dignityhealth.org"
+      ]
+    },
+    {
+      "rank": 12880,
+      "domain": "tmtpost.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 12969,
+      "domain": "hiv.gov",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "aids.gov"
+      ]
+    },
+    {
+      "rank": 13013,
+      "domain": "keepersecurity.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 13107,
+      "domain": "picmonkey.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 13161,
+      "domain": "tiqets.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 13180,
+      "domain": "vedur.is",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 13282,
+      "domain": "take2games.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 13350,
+      "domain": "ainvest.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 13351,
+      "domain": "pancakeswap.finance",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 13425,
+      "domain": "engelvoelkers.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 13557,
+      "domain": "accio.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 13782,
+      "domain": "pons.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 13822,
+      "domain": "epidemicsound.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 13864,
+      "domain": "eventbrite.ie",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 13894,
+      "domain": "sfgov.org",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 14114,
+      "domain": "mytheresa.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 14186,
+      "domain": "adidas-group.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 14311,
+      "domain": "supermarketnews.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 14352,
+      "domain": "cameo.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 14368,
+      "domain": "atgtickets.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 14486,
+      "domain": "dollartree.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 14503,
+      "domain": "moex.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 14511,
+      "domain": "bambulab.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 14561,
+      "domain": "galerieslafayette.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 14668,
+      "domain": "theafricareport.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 14718,
+      "domain": "wealthmanagement.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "nreionline.com"
+      ]
+    },
+    {
+      "rank": 14766,
+      "domain": "visitsweden.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 14807,
+      "domain": "alignable.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 14866,
+      "domain": "crainsdetroit.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 14934,
+      "domain": "concept2.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 14969,
+      "domain": "starz.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 14970,
+      "domain": "dak.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 14985,
+      "domain": "rocketreach.co",
+      "framework": "svelte-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 15064,
+      "domain": "personio.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 15066,
+      "domain": "ncsc.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 15443,
+      "domain": "airchina.com.cn",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 15506,
+      "domain": "catawiki.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "catawiki.nl"
+      ]
+    },
+    {
+      "rank": 15554,
+      "domain": "swisstransfer.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 15723,
+      "domain": "senscritique.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 15760,
+      "domain": "bensound.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 15785,
+      "domain": "findahelpline.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 15841,
+      "domain": "narita-airport.jp",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 15908,
+      "domain": "goodyear.eu",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 15915,
+      "domain": "guggenheim-bilbao.eus",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "guggenheim-bilbao.es"
+      ]
+    },
+    {
+      "rank": 15943,
+      "domain": "fanatics.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 15967,
+      "domain": "sephora.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 15991,
+      "domain": "whoop.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 16296,
+      "domain": "iveco.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 16304,
+      "domain": "arcteryx.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 16400,
+      "domain": "twitcasting.tv",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 16416,
+      "domain": "qr-code-generator.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 16476,
+      "domain": "totaljobs.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 16574,
+      "domain": "smhi.se",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 16713,
+      "domain": "gamemaker.io",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "yoyogames.com"
+      ]
+    },
+    {
+      "rank": 16719,
+      "domain": "nta.co.jp",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 16733,
+      "domain": "eurosport.fr",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 16949,
+      "domain": "stickermule.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 17061,
+      "domain": "hipcamp.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 17094,
+      "domain": "utmb.world",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 17109,
+      "domain": "cp.pt",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 17132,
+      "domain": "aflac.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 17189,
+      "domain": "technogym.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 17263,
+      "domain": "yanmar.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 17277,
+      "domain": "repost.aws",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 17457,
+      "domain": "bonn.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 17477,
+      "domain": "saturn.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 17552,
+      "domain": "biggo.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 17600,
+      "domain": "clarks.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 17648,
+      "domain": "talkwalker.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 17815,
+      "domain": "my.games",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 17854,
+      "domain": "phantom.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "phantom.app"
+      ]
+    },
+    {
+      "rank": 17911,
+      "domain": "gardenersworld.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18037,
+      "domain": "m6.fr",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "6play.fr"
+      ]
+    },
+    {
+      "rank": 18053,
+      "domain": "deltaww.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18136,
+      "domain": "fab.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18248,
+      "domain": "ascension.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 18253,
+      "domain": "start.gg",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "smash.gg"
+      ]
+    },
+    {
+      "rank": 18304,
+      "domain": "cex.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18343,
+      "domain": "automationanywhere.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "aisera.com"
+      ]
+    },
+    {
+      "rank": 18381,
+      "domain": "afterpay.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 18430,
+      "domain": "bmstu.ru",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18462,
+      "domain": "berlinerfestspiele.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 18623,
+      "domain": "pionline.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18685,
+      "domain": "wiki.gg",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 18700,
+      "domain": "planetfitness.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18715,
+      "domain": "lottiefiles.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 18721,
+      "domain": "northerntool.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18797,
+      "domain": "halowaypoint.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 18843,
+      "domain": "coolblue.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18858,
+      "domain": "marcjacobs.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 18875,
+      "domain": "relaischateaux.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 18932,
+      "domain": "glassdoor.co.in",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 19015,
+      "domain": "thenevadaindependent.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 19022,
+      "domain": "nvwa.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 19089,
+      "domain": "cleantalk.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 19280,
+      "domain": "leetcode.cn",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 19373,
+      "domain": "cop28.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 19397,
+      "domain": "manpowergroup.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 19422,
+      "domain": "charlottetilbury.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 19504,
+      "domain": "singlecare.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 19600,
+      "domain": "artlist.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 19653,
+      "domain": "alza.cz",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 19666,
+      "domain": "siepomaga.pl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 19705,
+      "domain": "easyfundraising.org.uk",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 19743,
+      "domain": "levels.fyi",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 19747,
+      "domain": "axa.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 19930,
+      "domain": "owllabs.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 19969,
+      "domain": "partcommunity.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 20038,
+      "domain": "reply.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 20132,
+      "domain": "wiesbaden.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 20207,
+      "domain": "hkdir.no",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 20268,
+      "domain": "coinglass.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 20455,
+      "domain": "visitestonia.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 21135,
+      "domain": "uizard.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 21192,
+      "domain": "om.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 21229,
+      "domain": "islcollective.com",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 21271,
+      "domain": "kering.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 21293,
+      "domain": "noon.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 21323,
+      "domain": "chatfuel.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 21368,
+      "domain": "shop.app",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 21426,
+      "domain": "phillips.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 21493,
+      "domain": "aerolineas.com.ar",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 21547,
+      "domain": "theifab.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 21689,
+      "domain": "ctfile.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 21690,
+      "domain": "tron.network",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 21930,
+      "domain": "sgx.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 22102,
+      "domain": "fontstruct.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 22130,
+      "domain": "hulu.jp",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 22134,
+      "domain": "litecoin.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 22141,
+      "domain": "vodafone.es",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 22206,
+      "domain": "notta.ai",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 22304,
+      "domain": "weverse.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 22305,
+      "domain": "linecorp.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 22424,
+      "domain": "a-ads.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 22541,
+      "domain": "aviasales.ru",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 22675,
+      "domain": "bancsabadell.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 22736,
+      "domain": "covestro.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 22924,
+      "domain": "post.at",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 23003,
+      "domain": "sj.se",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 23067,
+      "domain": "metaratings.ru",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 23136,
+      "domain": "brandstudio.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "dreamstudio.ai"
+      ]
+    },
+    {
+      "rank": 23157,
+      "domain": "cordonbleu.edu",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 23205,
+      "domain": "longines.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 23302,
+      "domain": "toyoko-inn.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 23313,
+      "domain": "fondation-patrimoine.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 23560,
+      "domain": "delijn.be",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 23688,
+      "domain": "blockdit.com",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 23882,
+      "domain": "postermywall.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 23905,
+      "domain": "eataly.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 23988,
+      "domain": "uwhealth.org",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 24115,
+      "domain": "protondb.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 24165,
+      "domain": "trustedhousesitters.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 24176,
+      "domain": "coasttocoastam.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 24191,
+      "domain": "citizengo.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 24332,
+      "domain": "bounce.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "usebounce.com"
+      ]
+    },
+    {
+      "rank": 24608,
+      "domain": "mondadoristore.it",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 24683,
+      "domain": "vroid.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 24684,
+      "domain": "instatus.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 24886,
+      "domain": "italotreno.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "italotreno.it"
+      ]
+    },
+    {
+      "rank": 25011,
+      "domain": "trust.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 25056,
+      "domain": "alexandermcqueen.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 25134,
+      "domain": "livsmedelsverket.se",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 25173,
+      "domain": "sumsub.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 25398,
+      "domain": "genomeweb.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 25435,
+      "domain": "fcbarcelona.es",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 25527,
+      "domain": "internationalsos.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 25643,
+      "domain": "hva.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 25765,
+      "domain": "going.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "scottscheapflights.com"
+      ]
+    },
+    {
+      "rank": 25769,
+      "domain": "moncler.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 25892,
+      "domain": "payforessay.net",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26102,
+      "domain": "hs-heilbronn.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 26127,
+      "domain": "cultureelerfgoed.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26214,
+      "domain": "brandcrowd.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 26249,
+      "domain": "fontsinuse.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26300,
+      "domain": "edpuzzle.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26316,
+      "domain": "cpaaustralia.com.au",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26341,
+      "domain": "huobi.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 26437,
+      "domain": "wedonthavetime.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 26444,
+      "domain": "tampere.fi",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26453,
+      "domain": "malt.fr",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 26590,
+      "domain": "vocus.cc",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 26638,
+      "domain": "codecombat.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 26700,
+      "domain": "dfwairport.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26709,
+      "domain": "deredactie.be",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26726,
+      "domain": "elfcosmetics.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26745,
+      "domain": "knt.co.jp",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26837,
+      "domain": "eintracht.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26897,
+      "domain": "vi.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 26948,
+      "domain": "allgemeine-zeitung.de",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 27000,
+      "domain": "milvus.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 27214,
+      "domain": "angel.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 27250,
+      "domain": "ag.ch",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 27299,
+      "domain": "thehockeynews.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 27396,
+      "domain": "ifunny.co",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 27474,
+      "domain": "lingvolive.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 27601,
+      "domain": "webropolsurveys.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 27603,
+      "domain": "ariston.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 27699,
+      "domain": "popmart.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 27731,
+      "domain": "hrs.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 27929,
+      "domain": "brainshark.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 28245,
+      "domain": "homeexchange.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 28346,
+      "domain": "hrs.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 28446,
+      "domain": "my-best.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 28503,
+      "domain": "ftx.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 28538,
+      "domain": "forbesmiddleeast.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 28547,
+      "domain": "lottehotel.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 28585,
+      "domain": "mod.gov.ua",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 28728,
+      "domain": "factsanddetails.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 28780,
+      "domain": "nagoyatv.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 28862,
+      "domain": "ligue1.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 28868,
+      "domain": "channel.io",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 28976,
+      "domain": "nicnames.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 28983,
+      "domain": "kenyalaw.org",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 29095,
+      "domain": "echo-online.de",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 29100,
+      "domain": "fanexpohq.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "wizardworld.com"
+      ]
+    },
+    {
+      "rank": 29211,
+      "domain": "yamap.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 29245,
+      "domain": "koninklijkhuis.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 29333,
+      "domain": "photojojo.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 29432,
+      "domain": "showpass.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 29450,
+      "domain": "pandaily.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 29526,
+      "domain": "visitstockholm.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 29673,
+      "domain": "sunshinecity.jp",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "sunshinecity.co.jp"
+      ]
+    },
+    {
+      "rank": 29782,
+      "domain": "myworkday.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 29970,
+      "domain": "vakinha.com.br",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 29988,
+      "domain": "posti.fi",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 29992,
+      "domain": "eversheds-sutherland.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 30066,
+      "domain": "smule.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 30123,
+      "domain": "grademiners.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 30155,
+      "domain": "perfectcorp.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 30162,
+      "domain": "digid.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 30186,
+      "domain": "suomi.fi",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 30234,
+      "domain": "eurosport.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 30359,
+      "domain": "perlego.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 30371,
+      "domain": "artsteps.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 30393,
+      "domain": "jomashop.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 30472,
+      "domain": "crainscleveland.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 30516,
+      "domain": "plannedparenthoodaction.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 30677,
+      "domain": "2dehands.be",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 30812,
+      "domain": "coinshares.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 30847,
+      "domain": "noom.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 30898,
+      "domain": "bi.no",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "bi.edu"
+      ]
+    },
+    {
+      "rank": 30975,
+      "domain": "littlecaesars.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 31072,
+      "domain": "htx.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 31124,
+      "domain": "masterpapers.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 31181,
+      "domain": "cryptokitties.co",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 31205,
+      "domain": "intermiamicf.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 31321,
+      "domain": "beautybay.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 31531,
+      "domain": "crowell.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 31602,
+      "domain": "oko.press",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 31670,
+      "domain": "10fastfingers.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 31735,
+      "domain": "carvertical.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 31767,
+      "domain": "aki.ee",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 31796,
+      "domain": "async.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "podcastle.ai"
+      ]
+    },
+    {
+      "rank": 32040,
+      "domain": "recruitcrm.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 32060,
+      "domain": "plasticsnews.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 32157,
+      "domain": "autoblog.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 32169,
+      "domain": "raydium.io",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 32213,
+      "domain": "kielinstitut.de",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "ifw-kiel.de"
+      ]
+    },
+    {
+      "rank": 32294,
+      "domain": "baskadia.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 32403,
+      "domain": "smartodr.in",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 32524,
+      "domain": "upbit.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 32574,
+      "domain": "mapado.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 32680,
+      "domain": "claas.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 32698,
+      "domain": "bohemia.net",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "bistudio.com"
+      ]
+    },
+    {
+      "rank": 32760,
+      "domain": "eventbrite.be",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 32781,
+      "domain": "fisherphillips.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 32828,
+      "domain": "lmu-klinikum.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 32862,
+      "domain": "www.net.cn",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 33179,
+      "domain": "pods.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 33322,
+      "domain": "maisonmargiela.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 33537,
+      "domain": "navalny.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 33589,
+      "domain": "emta.ee",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 33856,
+      "domain": "nitori-net.jp",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 33875,
+      "domain": "homestyler.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 33883,
+      "domain": "schluter.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 33906,
+      "domain": "passes.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 33947,
+      "domain": "hartstichting.nl",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 34019,
+      "domain": "edge-online.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 34089,
+      "domain": "automobilwoche.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 34098,
+      "domain": "nhn.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 34124,
+      "domain": "join-lemmy.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 34137,
+      "domain": "rubinobservatory.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 34191,
+      "domain": "hilti.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 34225,
+      "domain": "laterooms.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 34308,
+      "domain": "ranktracker.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 34399,
+      "domain": "freertos.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 34413,
+      "domain": "ochsner.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 34470,
+      "domain": "stib-mivb.be",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 34700,
+      "domain": "rss.app",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 34753,
+      "domain": "salonized.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 34833,
+      "domain": "polyhaven.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 34930,
+      "domain": "fragomen.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 34948,
+      "domain": "wayground.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "quizizz.com"
+      ]
+    },
+    {
+      "rank": 35115,
+      "domain": "calvinklein.us",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 35139,
+      "domain": "agencyanalytics.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35140,
+      "domain": "acesso.gov.br",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 35154,
+      "domain": "lloydspharmacy.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35239,
+      "domain": "rakuten.co.uk",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "play.com"
+      ]
+    },
+    {
+      "rank": 35251,
+      "domain": "livehindustan.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 35276,
+      "domain": "theasianparent.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35320,
+      "domain": "neumann.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35323,
+      "domain": "gotostage.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35352,
+      "domain": "grepolis.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35380,
+      "domain": "cedars-sinai.edu",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35535,
+      "domain": "3healthcare.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35538,
+      "domain": "coincheck.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 35641,
+      "domain": "domstol.se",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35728,
+      "domain": "atresplayer.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 35786,
+      "domain": "base44.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "base44.app"
+      ]
+    },
+    {
+      "rank": 35790,
+      "domain": "goodwinlaw.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 35852,
+      "domain": "ejatlas.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 36186,
+      "domain": "inline.app",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 36254,
+      "domain": "outschool.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 36264,
+      "domain": "oliveoiltimes.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 36316,
+      "domain": "treedom.net",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 36398,
+      "domain": "mercadona.es",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 36609,
+      "domain": "brain.fm",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 36661,
+      "domain": "ipsy.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 36698,
+      "domain": "todaytix.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "goldstar.com"
+      ]
+    },
+    {
+      "rank": 36713,
+      "domain": "zattoo.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 36813,
+      "domain": "sdaia.gov.sa",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 36815,
+      "domain": "geckoterminal.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 36820,
+      "domain": "pixelcut.ai",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 36951,
+      "domain": "clipfish.de",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "tvnow.de"
+      ]
+    },
+    {
+      "rank": 37060,
+      "domain": "zim.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 37108,
+      "domain": "fold3.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 37146,
+      "domain": "arboportaal.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 37228,
+      "domain": "freestyle.abbott",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 37346,
+      "domain": "eventbrite.sg",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 37363,
+      "domain": "nacoesunidas.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 37405,
+      "domain": "rammstein.de",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 37489,
+      "domain": "withjoy.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 37563,
+      "domain": "go853.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 37585,
+      "domain": "fas.st",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 37623,
+      "domain": "nflshop.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 37652,
+      "domain": "mbc.net",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 37879,
+      "domain": "equinoxpub.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 37918,
+      "domain": "hancom.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 38013,
+      "domain": "bissell.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 38081,
+      "domain": "kujiale.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 38269,
+      "domain": "continental-industry.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 38391,
+      "domain": "ilent.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 38424,
+      "domain": "f45training.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 38631,
+      "domain": "propertyfinder.ae",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 38753,
+      "domain": "aivd.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 38805,
+      "domain": "rdocumentation.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 38821,
+      "domain": "gramedia.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 38923,
+      "domain": "nextdns.io",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 39060,
+      "domain": "londontheatre.co.uk",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 39167,
+      "domain": "fritzhansen.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 39184,
+      "domain": "iflyrec.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 39236,
+      "domain": "btcc.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 39396,
+      "domain": "familydollar.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 39502,
+      "domain": "zorginstituutnederland.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 39732,
+      "domain": "investigate-europe.eu",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 39769,
+      "domain": "govdata.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 39775,
+      "domain": "calorieking.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 39803,
+      "domain": "petsathome.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 40195,
+      "domain": "lemmy.ml",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 40199,
+      "domain": "cambly.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 40226,
+      "domain": "frieslandcampina.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 40307,
+      "domain": "tree-nation.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 40419,
+      "domain": "inholland.nl",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 40499,
+      "domain": "xodo.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 40548,
+      "domain": "mbank.pl",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 40619,
+      "domain": "scp.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 40649,
+      "domain": "lagalaxy.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 40700,
+      "domain": "crumblcookies.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 40793,
+      "domain": "thieme.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "thieme-connect.com",
+        "thieme-connect.de",
+        "thieme.de"
+      ]
+    },
+    {
+      "rank": 40808,
+      "domain": "zooplus.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 40861,
+      "domain": "salesmate.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 40946,
+      "domain": "mziq.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 41040,
+      "domain": "cn-b.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 41123,
+      "domain": "onthesnow.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 41207,
+      "domain": "splashlearn.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 41234,
+      "domain": "stibee.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 41362,
+      "domain": "passportindia.gov.in",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 41368,
+      "domain": "royanews.tv",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 41454,
+      "domain": "kreml.ru",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 41472,
+      "domain": "careem.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 41517,
+      "domain": "spanx.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 41522,
+      "domain": "christiesrealestate.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 41564,
+      "domain": "apidog.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 41582,
+      "domain": "radiokrakow.pl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 41619,
+      "domain": "insureon.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 41647,
+      "domain": "sokoshotels.fi",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 41723,
+      "domain": "govee.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 41777,
+      "domain": "design.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 41780,
+      "domain": "olivemagazine.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 41793,
+      "domain": "curacao.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 41862,
+      "domain": "quince.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 41874,
+      "domain": "respekt.cz",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 41891,
+      "domain": "operabase.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 42044,
+      "domain": "freitag.ch",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 42183,
+      "domain": "fugro.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 42281,
+      "domain": "scbwi.org",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 42318,
+      "domain": "thedigital.gov.ua",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 42446,
+      "domain": "savee.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "savee.it"
+      ]
+    },
+    {
+      "rank": 42541,
+      "domain": "dext.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 42542,
+      "domain": "buchkatalog.de",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 42597,
+      "domain": "harrys.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 42611,
+      "domain": "picoxr.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 42868,
+      "domain": "ossur.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 42915,
+      "domain": "sentosa.com.sg",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 42990,
+      "domain": "byteplus.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 43058,
+      "domain": "csas.cz",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 43153,
+      "domain": "ibighit.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 43266,
+      "domain": "gearsofwar.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 43512,
+      "domain": "chatroulette.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 43513,
+      "domain": "gotransit.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 43680,
+      "domain": "pvh.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 43756,
+      "domain": "montrealjazzfest.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 43767,
+      "domain": "uid.me",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 43803,
+      "domain": "wbsc.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 43908,
+      "domain": "avaz.ba",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 43949,
+      "domain": "smoothcontact.jp",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 43959,
+      "domain": "capsulecrm.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44190,
+      "domain": "healthhub.sg",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44212,
+      "domain": "rotterdam.info",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 44251,
+      "domain": "fc-union-berlin.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44270,
+      "domain": "bright.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44317,
+      "domain": "gezondheidsraad.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44355,
+      "domain": "docmorris.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44357,
+      "domain": "soundersfc.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44583,
+      "domain": "slavevoyages.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44628,
+      "domain": "bclplaw.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44647,
+      "domain": "fcbarcelona.cat",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 44853,
+      "domain": "deribit.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 44933,
+      "domain": "avs4you.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 45222,
+      "domain": "ibc.ca",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 45224,
+      "domain": "immersivetranslate.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 45553,
+      "domain": "eventbrite.com.ar",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 45556,
+      "domain": "nav.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 45585,
+      "domain": "espoo.fi",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 45682,
+      "domain": "laliberte.ch",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 45741,
+      "domain": "navercorp.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 45813,
+      "domain": "vanmoof.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 45933,
+      "domain": "popdaily.com.tw",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 46093,
+      "domain": "alpsalpine.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "alps.com"
+      ]
+    },
+    {
+      "rank": 46205,
+      "domain": "progressive.international",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 46211,
+      "domain": "igj.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 46242,
+      "domain": "tonies.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 46327,
+      "domain": "fex.net",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 46329,
+      "domain": "essaywriter.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 46424,
+      "domain": "flymco.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 46487,
+      "domain": "itransition.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 46570,
+      "domain": "usg.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 46764,
+      "domain": "bokadirekt.se",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 46998,
+      "domain": "hightouch.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 47139,
+      "domain": "redocly.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 47148,
+      "domain": "bodum.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 47161,
+      "domain": "alzheimer-nederland.nl",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 47407,
+      "domain": "telequebec.tv",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 47713,
+      "domain": "manpower.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 47774,
+      "domain": "ebpf.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 48038,
+      "domain": "unilu.ch",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 48118,
+      "domain": "treatwell.co.uk",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 48137,
+      "domain": "endu.net",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 48335,
+      "domain": "robert-schuman.eu",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 48429,
+      "domain": "biathlonworld.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 48560,
+      "domain": "matkahuolto.fi",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 48686,
+      "domain": "euwiderrufsbutton.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 49009,
+      "domain": "byredo.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 49127,
+      "domain": "www.gov.pt",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "eportugal.gov.pt",
+        "www2.gov.pt"
+      ]
+    },
+    {
+      "rank": 49211,
+      "domain": "orano.group",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 49257,
+      "domain": "dfs.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 49327,
+      "domain": "newhope.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 49408,
+      "domain": "flightsim.to",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 49651,
+      "domain": "madeformums.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 49740,
+      "domain": "fakeyou.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 49801,
+      "domain": "bigregister.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 49815,
+      "domain": "bratislava.sk",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 49852,
+      "domain": "sentara.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 50252,
+      "domain": "wiesbadener-kurier.de",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 50264,
+      "domain": "disco.ac",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 50309,
+      "domain": "talabat.com",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 50510,
+      "domain": "voetbalprimeur.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 50638,
+      "domain": "vvs.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 50821,
+      "domain": "moeveglobal.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "cepsa.com"
+      ]
+    },
+    {
+      "rank": 51047,
+      "domain": "igf.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 51183,
+      "domain": "healthunlocked.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 51292,
+      "domain": "soundtrap.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 51343,
+      "domain": "bicyclecards.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 51408,
+      "domain": "indrive.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 51510,
+      "domain": "upscale.media",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 51568,
+      "domain": "ticketlink.co.kr",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 51614,
+      "domain": "incidentdatabase.ai",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 51673,
+      "domain": "stape.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 51676,
+      "domain": "moes.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 51687,
+      "domain": "udisc.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 51723,
+      "domain": "sdabocconi.it",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 51832,
+      "domain": "eventbrite.com.br",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 52234,
+      "domain": "chainguard.dev",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 52250,
+      "domain": "mathlog.info",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 52252,
+      "domain": "eurosport.it",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 52267,
+      "domain": "cherry-ai.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 52343,
+      "domain": "veiligheid.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 52633,
+      "domain": "allabolag.se",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 52638,
+      "domain": "ringana.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 52726,
+      "domain": "hotel.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 52765,
+      "domain": "bpi.co.uk",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 52878,
+      "domain": "adityabirlacapital.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 53412,
+      "domain": "3commas.io",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 53432,
+      "domain": "dziennikwschodni.pl",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 53486,
+      "domain": "notability.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 53554,
+      "domain": "bookbeat.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 53580,
+      "domain": "hartenergy.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 53725,
+      "domain": "newyorkredbulls.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 53935,
+      "domain": "dubaipolice.gov.ae",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 54017,
+      "domain": "service-bw.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 54039,
+      "domain": "clcillinois.edu",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 54207,
+      "domain": "cbg-meb.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 54346,
+      "domain": "protocols.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 54394,
+      "domain": "bumrungrad.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 54518,
+      "domain": "duomai.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 54578,
+      "domain": "missguided.com",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "missguided.co.uk"
+      ]
+    },
+    {
+      "rank": 54656,
+      "domain": "nza.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 54673,
+      "domain": "onderwijsinspectie.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 54741,
+      "domain": "eataly.net",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 54768,
+      "domain": "mobilelegends.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 54888,
+      "domain": "watermarkremover.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 54956,
+      "domain": "tridge.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 54979,
+      "domain": "hunterindustries.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 55134,
+      "domain": "chatboxai.app",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 55154,
+      "domain": "winna.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 55203,
+      "domain": "ryobitools.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 55278,
+      "domain": "kurogames.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 55373,
+      "domain": "ping.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 55395,
+      "domain": "fantia.jp",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 55455,
+      "domain": "sco.lt",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 55482,
+      "domain": "gamban.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 55558,
+      "domain": "yangming.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 55586,
+      "domain": "b12.io",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "b12sites.com"
+      ]
+    },
+    {
+      "rank": 55709,
+      "domain": "beslist.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 55766,
+      "domain": "ticketmelon.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 55863,
+      "domain": "fanatec.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 55887,
+      "domain": "v2.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 56351,
+      "domain": "lafc.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 56533,
+      "domain": "pets4homes.co.uk",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 56540,
+      "domain": "wormhole.app",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 56998,
+      "domain": "youjizz.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 57025,
+      "domain": "mediasetinfinity.es",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "mitele.es"
+      ]
+    },
+    {
+      "rank": 57106,
+      "domain": "hkexpress.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 57107,
+      "domain": "jilsander.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 57182,
+      "domain": "ctrader.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 57220,
+      "domain": "uza.uz",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 57241,
+      "domain": "onthehub.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 57409,
+      "domain": "wodc.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 57546,
+      "domain": "send-anywhere.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 57575,
+      "domain": "sifive.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 57791,
+      "domain": "safetravel.is",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 57792,
+      "domain": "hbportal.co",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 57838,
+      "domain": "bibliotekanauki.pl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 57874,
+      "domain": "meetergo.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 58028,
+      "domain": "rbauction.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 58099,
+      "domain": "orlandocitysc.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 58177,
+      "domain": "wazirx.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 58348,
+      "domain": "auntieannes.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 58566,
+      "domain": "uspceu.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 58585,
+      "domain": "zilliz.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 58866,
+      "domain": "marni.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 59020,
+      "domain": "tokyoartbeat.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 59607,
+      "domain": "belfius.be",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 59619,
+      "domain": "eventbrite.at",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 59767,
+      "domain": "timetreeapp.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 59875,
+      "domain": "cinnabon.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 59940,
+      "domain": "samedayessay.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 60077,
+      "domain": "ff.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 60079,
+      "domain": "erlangen.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 60150,
+      "domain": "msp.gov.ua",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 60458,
+      "domain": "zvv.ch",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 60531,
+      "domain": "sankakucomplex.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 60558,
+      "domain": "thelotter.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 60561,
+      "domain": "coachusa.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 60590,
+      "domain": "matsuya.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 60646,
+      "domain": "mensenrechten.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 60801,
+      "domain": "cloudbet.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 61040,
+      "domain": "webikeo.fr",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 61051,
+      "domain": "nctv.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 61520,
+      "domain": "etro.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 61794,
+      "domain": "norsk-tipping.no",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 61823,
+      "domain": "lids.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 61897,
+      "domain": "marriottbonvoy.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 62045,
+      "domain": "deepinfra.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 62046,
+      "domain": "bloomingbit.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 62153,
+      "domain": "falk.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 62200,
+      "domain": "handmadewriting.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 62269,
+      "domain": "delhimetrorail.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 62345,
+      "domain": "cjdropshipping.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 62461,
+      "domain": "desktime.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 62525,
+      "domain": "typotheque.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 62530,
+      "domain": "ov-chipkaart.nl",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 62533,
+      "domain": "essays.io",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "studentshare.org"
+      ]
+    },
+    {
+      "rank": 62635,
+      "domain": "pastvu.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 62711,
+      "domain": "spree.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 62774,
+      "domain": "eurosport.es",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 62806,
+      "domain": "viveport.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 62826,
+      "domain": "technikum-wien.at",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 62860,
+      "domain": "mediamarkt.pl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 62905,
+      "domain": "rekenkamer.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 62945,
+      "domain": "phantombuster.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 62948,
+      "domain": "dikidi.net",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 63105,
+      "domain": "forgeofempires.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 63158,
+      "domain": "ttja.ee",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 63215,
+      "domain": "uzleuven.be",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 63254,
+      "domain": "pixai.art",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 63303,
+      "domain": "edreams.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 63454,
+      "domain": "politis.com.cy",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 63537,
+      "domain": "ais.th",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "ais.co.th"
+      ]
+    },
+    {
+      "rank": 63569,
+      "domain": "pininfarina.it",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 63669,
+      "domain": "popehat.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 63958,
+      "domain": "ctrl.blog",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 64204,
+      "domain": "octoparse.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 64427,
+      "domain": "dcunited.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 64657,
+      "domain": "erase.bg",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 64658,
+      "domain": "visitalgarve.pt",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 64710,
+      "domain": "luminpdf.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 64830,
+      "domain": "24s.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 64937,
+      "domain": "swag.live",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 65063,
+      "domain": "mcalistersdeli.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 65064,
+      "domain": "vivenushop.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 65088,
+      "domain": "toyota.ca",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 65102,
+      "domain": "uniplaces.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 65173,
+      "domain": "fr.gaultmillau.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 65430,
+      "domain": "2captcha.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 65760,
+      "domain": "kalypsomedia.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 65762,
+      "domain": "ugc.fr",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 65853,
+      "domain": "fcdallas.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 65923,
+      "domain": "informe.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 66098,
+      "domain": "mlbshop.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 66099,
+      "domain": "whitecapsfc.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 66256,
+      "domain": "shpock.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 66310,
+      "domain": "osl.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 66356,
+      "domain": "beeksebergen.nl",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 66454,
+      "domain": "philadelphiaunion.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 66741,
+      "domain": "upkeep.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 66885,
+      "domain": "theblueground.com",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 66887,
+      "domain": "iog.io",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "iohk.io"
+      ]
+    },
+    {
+      "rank": 66891,
+      "domain": "timbers.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 67322,
+      "domain": "lapostegroupe.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 67368,
+      "domain": "eabr.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 67448,
+      "domain": "essayusa.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 67535,
+      "domain": "manor.ch",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 67752,
+      "domain": "hugoblox.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 67763,
+      "domain": "trendlife.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 68077,
+      "domain": "hostaway.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "holidayfuture.com"
+      ]
+    },
+    {
+      "rank": 68118,
+      "domain": "modbapi.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 68246,
+      "domain": "etsglobal.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 68324,
+      "domain": "norge.no",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 68445,
+      "domain": "inflearn.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 68780,
+      "domain": "aviasales.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 68788,
+      "domain": "nocowanie.pl",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 69025,
+      "domain": "twist.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 69032,
+      "domain": "nycfc.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 69044,
+      "domain": "exclaimer.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 69386,
+      "domain": "ankr.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 69461,
+      "domain": "enschede.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 69521,
+      "domain": "nbg.gov.ge",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 69557,
+      "domain": "germainhotels.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 69564,
+      "domain": "knewton.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 69753,
+      "domain": "fastspinpromotion.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 69755,
+      "domain": "oreateai.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 69828,
+      "domain": "nioz.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 70051,
+      "domain": "atlutd.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 70053,
+      "domain": "redcross.ch",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 70159,
+      "domain": "thetatoken.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 70307,
+      "domain": "teliacompany.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 70493,
+      "domain": "wangchujiang.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 70570,
+      "domain": "sportingkc.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 70573,
+      "domain": "bedandbreakfast.nl",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 70603,
+      "domain": "mimaki.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 70630,
+      "domain": "lappgroup.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 70798,
+      "domain": "mittelhessen.de",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 70823,
+      "domain": "oresundsbron.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 71015,
+      "domain": "workbuddy.cn",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 71343,
+      "domain": "aramcoworld.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 71357,
+      "domain": "sjearthquakes.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 71615,
+      "domain": "opintopolku.fi",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 71697,
+      "domain": "inter.co",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 71862,
+      "domain": "volkshuisvestingnederland.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 71994,
+      "domain": "youmaker.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 72253,
+      "domain": "bce.ca",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 72345,
+      "domain": "yesim.app",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 72394,
+      "domain": "redsea.gov.eg",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 72395,
+      "domain": "revolutionsoccer.net",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 72417,
+      "domain": "belanjaparts.com",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 72543,
+      "domain": "autolist.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 72698,
+      "domain": "arbormemorial.ca",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 72771,
+      "domain": "airfocus.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 73282,
+      "domain": "unstudio.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 73487,
+      "domain": "liveone.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "slacker.com"
+      ]
+    },
+    {
+      "rank": 73540,
+      "domain": "pickx.be",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 74040,
+      "domain": "insideairbnb.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 74132,
+      "domain": "reeperbahnfestival.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 74197,
+      "domain": "upsa.es",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 74641,
+      "domain": "oliveyoung.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 74788,
+      "domain": "2ememain.be",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 74962,
+      "domain": "un-ihe.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 74965,
+      "domain": "giga.chat",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 75173,
+      "domain": "growtherapy.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 75327,
+      "domain": "bitdeer.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 75348,
+      "domain": "ado.com.mx",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 75381,
+      "domain": "chefsteps.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 75472,
+      "domain": "bankfab.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 75612,
+      "domain": "true.th",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 75678,
+      "domain": "machinio.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 75718,
+      "domain": "travala.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 75728,
+      "domain": "jamba.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 75752,
+      "domain": "coloradorapids.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 75844,
+      "domain": "wukong.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 75863,
+      "domain": "tastytrade.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 75880,
+      "domain": "miricanvas.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 75999,
+      "domain": "vroomly.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 76201,
+      "domain": "carfromjapan.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 76324,
+      "domain": "garbageday.email",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 76592,
+      "domain": "worldgovernmentssummit.org",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "worldgovernmentsummit.org"
+      ]
+    },
+    {
+      "rank": 76730,
+      "domain": "kinemaster.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 77060,
+      "domain": "maxongroup.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 77177,
+      "domain": "abbottnutrition.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 77243,
+      "domain": "xrpscan.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 77370,
+      "domain": "coohom.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 77395,
+      "domain": "scufgaming.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 77406,
+      "domain": "eventbrite.co.nz",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 77419,
+      "domain": "brokenships.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 77490,
+      "domain": "roundtable.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 77491,
+      "domain": "cluster.mu",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 77586,
+      "domain": "aosmd.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 77598,
+      "domain": "leadingcourses.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 77871,
+      "domain": "austrian-standards.at",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 77978,
+      "domain": "honda.ca",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 77984,
+      "domain": "cardiovascular.abbott",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 78103,
+      "domain": "gymglish.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 78239,
+      "domain": "jyvaskyla.fi",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 78362,
+      "domain": "youthhostel.ch",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 78366,
+      "domain": "scosche.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 78479,
+      "domain": "crainsgrandrapids.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 78752,
+      "domain": "raffall.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 78838,
+      "domain": "quickswap.exchange",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 78972,
+      "domain": "coins.ph",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 79106,
+      "domain": "fukuoka-airport.jp",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 79115,
+      "domain": "translated.com",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "translated.net"
+      ]
+    },
+    {
+      "rank": 79142,
+      "domain": "nlarbeidsinspectie.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 79257,
+      "domain": "huurcommissie.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 79373,
+      "domain": "orcarouter.ai",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 79399,
+      "domain": "pincamp.de",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 79747,
+      "domain": "liqpay.ua",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 79768,
+      "domain": "globalpointofcare.abbott",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 79850,
+      "domain": "tulip.co",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 79887,
+      "domain": "predictwind.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 79922,
+      "domain": "world-stroke.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 79925,
+      "domain": "girondins.com",
+      "framework": "next-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 79933,
+      "domain": "pobeda.aero",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 80260,
+      "domain": "startse.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 80701,
+      "domain": "sukl.gov.cz",
+      "framework": "",
+      "ssr": false,
+      "aka": [
+        "sukl.cz"
+      ]
+    },
+    {
+      "rank": 80976,
+      "domain": "metrolinx.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 80999,
+      "domain": "liander.nl",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 81191,
+      "domain": "rabby.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 81206,
+      "domain": "kaufda.de",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 81236,
+      "domain": "flowith.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 81294,
+      "domain": "bq.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 81732,
+      "domain": "xmsia.cn",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 81831,
+      "domain": "sbc.org.pl",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 81877,
+      "domain": "linkedhelper.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 81921,
+      "domain": "gandhi.com.mx",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 81999,
+      "domain": "up.gov.cz",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "uradprace.cz"
+      ]
+    },
+    {
+      "rank": 82265,
+      "domain": "innn.it",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 82274,
+      "domain": "aripaev.ee",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 82340,
+      "domain": "netbeheernederland.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 82501,
+      "domain": "royalwriter.co.uk",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 82568,
+      "domain": "japan47go.travel",
+      "framework": "next-i18next",
+      "ssr": true,
+      "aka": [
+        "nihon-kankou.or.jp"
+      ]
+    },
+    {
+      "rank": 82786,
+      "domain": "kfw-entwicklungsbank.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 82869,
+      "domain": "exoticca.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 83193,
+      "domain": "saraya.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 83202,
+      "domain": "status.news",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 83203,
+      "domain": "oklo.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 83260,
+      "domain": "mk2.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 83270,
+      "domain": "nobelpeacecenter.org",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 83414,
+      "domain": "hatch.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 83513,
+      "domain": "amzscout.net",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 83835,
+      "domain": "1000-premiers-jours.fr",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 83886,
+      "domain": "hytera.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 83908,
+      "domain": "poltronafrau.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 84270,
+      "domain": "naga.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 84338,
+      "domain": "wrr.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 84783,
+      "domain": "tradecard.jp",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "pockecolle.com"
+      ]
+    },
+    {
+      "rank": 84979,
+      "domain": "treatwell.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 84991,
+      "domain": "hireright.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 85004,
+      "domain": "cltairport.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 85005,
+      "domain": "ab-in-den-urlaub.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 85182,
+      "domain": "regelhulp.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 85307,
+      "domain": "imago-images.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 85548,
+      "domain": "playstartrekonline.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 85629,
+      "domain": "treatwell.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 85813,
+      "domain": "verbling.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 85939,
+      "domain": "xumo.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 86008,
+      "domain": "imageresizer.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 86042,
+      "domain": "hotel.info",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 86118,
+      "domain": "medpex.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 86270,
+      "domain": "avera.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 86334,
+      "domain": "fujiyama-international.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 86415,
+      "domain": "progate.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 86600,
+      "domain": "jetsmart.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 86668,
+      "domain": "imago-images.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 86762,
+      "domain": "alrajhibank.com.sa",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 86955,
+      "domain": "cariverplate.com.ar",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 87035,
+      "domain": "buyessay.net",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 87119,
+      "domain": "gera.de",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 87182,
+      "domain": "johnsonelectric.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 87345,
+      "domain": "eventbrite.hk",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 87382,
+      "domain": "wolai.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 87415,
+      "domain": "funbooker.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 87452,
+      "domain": "fccincinnati.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 87519,
+      "domain": "ibood.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 88201,
+      "domain": "klive68.com",
+      "framework": "react-i18next",
+      "ssr": false,
+      "aka": [
+        "klive.vip"
+      ]
+    },
+    {
+      "rank": 88216,
+      "domain": "cropink.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 88418,
+      "domain": "auto.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 88702,
+      "domain": "rootstock.io",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 88780,
+      "domain": "dola.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 88894,
+      "domain": "tikkie.me",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 88955,
+      "domain": "alko.fi",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 89061,
+      "domain": "bottomline.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 89245,
+      "domain": "fiipregatit.ro",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 89322,
+      "domain": "russpass.ru",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 89414,
+      "domain": "chartmetric.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 89424,
+      "domain": "webme.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 89559,
+      "domain": "tss-tv.co.jp",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 89732,
+      "domain": "subscan.io",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 89787,
+      "domain": "monito.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 89856,
+      "domain": "rentmas.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 89905,
+      "domain": "newsofbahrain.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 89950,
+      "domain": "romeo.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 90096,
+      "domain": "acibadem.com.tr",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 90273,
+      "domain": "qwencloud.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 90430,
+      "domain": "bybit.eu",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 90432,
+      "domain": "feeld.co",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 90544,
+      "domain": "netboard.me",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 90688,
+      "domain": "qatarliving.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 90718,
+      "domain": "achmea.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 90738,
+      "domain": "agroberichtenbuitenland.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 90787,
+      "domain": "pawschicago.org",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 91068,
+      "domain": "sligro.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 91171,
+      "domain": "tv8.md",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 91254,
+      "domain": "sipeed.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 91317,
+      "domain": "zeabur.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 91436,
+      "domain": "schurter.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 91548,
+      "domain": "torontofc.ca",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 91757,
+      "domain": "appartcity.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 91885,
+      "domain": "bioprocessintl.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 91908,
+      "domain": "exmo.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 92055,
+      "domain": "newyorktheatreguide.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 92090,
+      "domain": "board.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 92099,
+      "domain": "jacobin.de",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 92336,
+      "domain": "we-xpats.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 92451,
+      "domain": "inflact.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 92477,
+      "domain": "gronalund.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 92531,
+      "domain": "woai.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 92560,
+      "domain": "domaining.es",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 92626,
+      "domain": "strafe.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 92659,
+      "domain": "romo.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 92702,
+      "domain": "tablethotels.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 92937,
+      "domain": "bitzer.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 92971,
+      "domain": "whee.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 92994,
+      "domain": "parloa.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 93045,
+      "domain": "singaporeflyer.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 93086,
+      "domain": "bilderberg.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 93179,
+      "domain": "registrucentras.lt",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 93228,
+      "domain": "bartlett.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 93286,
+      "domain": "eventbrite.pt",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 93458,
+      "domain": "auroraoss.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 93571,
+      "domain": "tunemymusic.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 93595,
+      "domain": "foodservicedirector.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 93597,
+      "domain": "yogi-life.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 93623,
+      "domain": "urw.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 93923,
+      "domain": "karbonhq.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 94002,
+      "domain": "kiesraad.nl",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 94123,
+      "domain": "youniqueproducts.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 94347,
+      "domain": "nervos.org",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 94423,
+      "domain": "edreams.es",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 94582,
+      "domain": "webuildgroup.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 94662,
+      "domain": "blockexplorer.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 95039,
+      "domain": "anwbcamping.nl",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 95170,
+      "domain": "atgtickets.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 95184,
+      "domain": "zurich.ch",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 95382,
+      "domain": "sreality.cz",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 95602,
+      "domain": "latoken.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 95690,
+      "domain": "deskshare.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 95817,
+      "domain": "playhq.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 95853,
+      "domain": "homofaber.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 95994,
+      "domain": "kakaogames.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 96009,
+      "domain": "krisenchat.de",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 96120,
+      "domain": "arirang.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 96478,
+      "domain": "owlcat.games",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 96556,
+      "domain": "nucba.ac.jp",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 96970,
+      "domain": "ecotree.green",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 97040,
+      "domain": "publicenemy.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 97177,
+      "domain": "mrqz.me",
+      "framework": "i18next-vue",
+      "ssr": false
+    },
+    {
+      "rank": 97214,
+      "domain": "jardindacclimatation.fr",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 97275,
+      "domain": "snam.it",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 97858,
+      "domain": "dnspod.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 97950,
+      "domain": "boords.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 97990,
+      "domain": "kickante.com.br",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 98026,
+      "domain": "egwwritings.org",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 98218,
+      "domain": "webook.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 98242,
+      "domain": "fordpro.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 98245,
+      "domain": "nashvillesc.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 98496,
+      "domain": "rsl.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 98515,
+      "domain": "codetickets.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 98970,
+      "domain": "json.cn",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 99040,
+      "domain": "yamazen.co.jp",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 99062,
+      "domain": "chicagofirefc.com",
+      "framework": "react-i18next",
+      "ssr": false
+    },
+    {
+      "rank": 99079,
+      "domain": "lecoqsportif.com",
+      "framework": "",
+      "ssr": false
+    },
+    {
+      "rank": 99867,
+      "domain": "gryphline.com",
+      "framework": "next-i18next",
+      "ssr": true
+    },
+    {
+      "rank": 99988,
+      "domain": "liberationroute.com",
+      "framework": "next-i18next",
+      "ssr": true
+    }
+  ]
+}

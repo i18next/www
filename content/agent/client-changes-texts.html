@@ -1,0 +1,59 @@
+<!-- "Let your client change the texts", below "With your agent", in G's markup. The free way first, then one marked
+     block that says when Locize fits and links to the matching page at Locize. Prompt test 2026-11-20: Claude Sonnet
+     5.5 and Haiku 5.5 each built it from a start project, all checks passed; other agents not yet. -->
+<pre>Make the texts of this site easy to change for someone who does not code.
+- Every text in <span class="ph">[src/locales]</span>/&lt;lang&gt;/*.json, with keys that say
+  where the text appears (home.hero.title, not text1)
+- A short TEXTS.md that says which file and key holds which part of
+  which page, and how to change it on GitHub in the browser
+- `npx i18next-cli status` before the build, so a missing translation
+  stops the deploy instead of reaching the site
+At the end, show me TEXTS.md.</pre>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>What your agent does</h2>
+      <ol class="checklist">
+        <li>Moves every text into one JSON file per language under <code>src/locales</code>, with keys that say where the
+          text appears (<code>home.hero.title</code>, not <code>text1</code>), so a person who does not code finds it.</li>
+        <li>Writes <code>TEXTS.md</code>: which file and key holds which part of which page, and how to change a line on GitHub
+          in the browser.</li>
+        <li>Adds <code>npx i18next-cli status</code> before the build, so a missing translation stops the deploy instead of
+          reaching the site.</li>
+        <li>Shows you <code>TEXTS.md</code> at the end, so you can check it before you hand it over.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>Two ways to change a text</h2>
+      <div class="ways">
+        <div class="way">
+          <h3>The client edits the file</h3>
+          <p>The texts are JSON files in the repository. Your client opens the file on GitHub, changes the line with the pencil
+            icon and saves; the build checks every language and deploys. Or they send you the change and your agent makes it.
+            This costs nothing extra and fits when changes are rare or when you want to look at each one.</p>
+        </div>
+        <locize-block title="The client edits the texts in Locize" href="https://www.locize.com/for-your-team" link="Locize for your team">
+          <p>Your client changes the texts in a web editor, in every language, without the repository. A webhook can start a
+            new build of the site when texts change or a version is published, or the site loads the published texts from the
+            Locize CDN, so a change
+            shows without a deploy. It fits when the client changes texts often or on their own schedule, and when you look
+            after many client sites. Your agent connects the existing files with <code>npx i18next-cli locize-migrate</code>
+            (it needs <code>locize-cli</code> and a project ID and API key).</p>
+        </locize-block>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>Before you hand it over</h2>
+      <ul class="checklist">
+        <li>Change one text the way your client will, and watch it reach the site.</li>
+        <li>Agree who reads a change in the other languages: a client fixing the English does not fix the German.
+          <a href="/with-your-agent/keep-languages-current">Keep every language current</a> shows how.</li>
+      </ul>
+    </div>
+  </section>

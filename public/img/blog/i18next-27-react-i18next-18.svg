@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">The install command for i18next 27 and react-i18next 18, and three defaults before and after</title>
+  <!-- Cover in prototype G's code style: the upgrade and what it changes are the picture. G's code colours. -->
+  <rect width="1200" height="630" fill="#14211e"/>
+  <rect x="0" y="0" width="1200" height="64" fill="#1a2b27"/>
+  <circle cx="44" cy="32" r="7" fill="#3b524c"/><circle cx="68" cy="32" r="7" fill="#3b524c"/><circle cx="92" cy="32" r="7" fill="#3b524c"/>
+  <text x="128" y="40" fill="#8ea7a1" font-family="ui-monospace, SF Mono, Menlo, Consolas, monospace" font-size="22">terminal</text>
+  <g font-family="ui-monospace, SF Mono, Menlo, Consolas, monospace" font-size="32">
+    <text xml:space="preserve" x="64" y="140"><tspan fill="#8ea7a1">$ </tspan><tspan fill="#dfeae6">npm install </tspan><tspan fill="#7fdcca">i18next@27 react-i18next@18</tspan></text>
+  </g>
+  <rect x="64" y="196" width="1072" height="2" fill="#2a3a36"/>
+  <g font-family="ui-monospace, SF Mono, Menlo, Consolas, monospace" font-size="26">
+    <text x="64" y="256" fill="#8ea7a1">default</text><text x="560" y="256" fill="#8ea7a1">v26</text><text x="860" y="256" fill="#8ea7a1">v27</text>
+    <text x="64" y="330" fill="#dfeae6">fallbackLng</text><text x="560" y="330" fill="#f0c987">['dev']</text><text x="860" y="330" fill="#7fdcca">false</text>
+    <text x="64" y="400" fill="#dfeae6">returnEmptyString</text><text x="560" y="400" fill="#f0c987">true</text><text x="860" y="400" fill="#7fdcca">false</text>
+    <text x="64" y="470" fill="#dfeae6">'$10/month'</text><text x="560" y="470" fill="#f0c987">$10&amp;#x2F;month</text><text x="860" y="470" fill="#7fdcca">$10/month</text>
+  </g>
+  <text x="64" y="560" fill="#8ea7a1" font-family="ui-monospace, SF Mono, Menlo, Consolas, monospace" font-size="22">i18next 27.0.0 and react-i18next 18.0.0 · 2026-11-07</text>
+</svg>

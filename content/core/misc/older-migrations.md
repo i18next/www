@@ -1,0 +1,316 @@
+---
+description: "The changes and migration steps of i18next v2 to v22, for code that still runs an old version."
+---
+
+# Older migrations
+
+### v21.x.x to v22.0.0
+
+Since this is a major rewrite for [TypeScript usage](../overview/typescript.md) we decided to create a major version.\
+For JavaScript users v22.0.0 is equivalent to 21.10.0
+
+### v20.x.x to v21.0.0
+
+#### [JSON format v4](json-format.md#i18next-json-v4): [pluralization](../translation-function/plurals.md)
+
+One of the biggest breaking changes is regarding suffixing plurals.\
+This change streamlines the suffix with the one used in the [Intl API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/PluralRules).\
+You may need to [polyfill](https://github.com/eemeli/intl-pluralrules) the [Intl.PluralRules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules) API; in case it is not available, it will fall back to the i18next JSON format v3 plural handling.\
+To enforce the old behavior you can enable `compatibilityJSON = 'v3'` on i18next init call. _(Note: this escape hatch existed up to v23; since v24 the old JSON formats and the fallback are removed, the Intl API is mandatory, and the polyfill is the only fix.)_
+
+```javascript
+import i18next from 'i18next';
+
+i18next.init({
+  compatibilityJSON: 'v3'
+}, (err, t) => { /* resources are loaded */ });
+```
+
+There is also support for [ordinal numbers](../translation-function/plurals.md#ordinal-plurals) _(referring to the ordering or ranking of things, e.g. "1st", "2nd", "3rd" in English)_.\
+Learn more about plurals: [Plurals](/translation-function/plurals)
+
+To convert your existing translations to the new v4 format, have a look at [i18next-v4-format-converter](https://github.com/i18next/i18next-v4-format-converter). _(It will only handle keys with the default pluralSeparator `_`)_
+
+#### skipOnVariables = true
+
+By default the `skipOnVariables` [option](../translation-function/interpolation.md#all-interpolation-options) now is set to true.\
+To enforce the old behavior you can set `skipOnVariables = false` on i18next init call.
+
+```javascript
+import i18next from 'i18next';
+
+i18next.init({
+  interpolation: {
+    skipOnVariables: false
+  }
+}, (err, t) => { /* resources are loaded */ });
+```
+
+#### Natural language detection
+
+i18next now automatically tries to detect natural language keys.\
+This way there is no need to set `nsSeparator` or `keySeparator` [option](../overview/configuration-options.md#others) to `false`.\
+_In case you want to skip this natural language detection, provide a `keySeparator` and/or a `nsSeparator` option._
+
+#### Removed deprecated
+
+The old [deprecated whitelist options](https://github.com/i18next/i18next/issues/1466) and functions have been definitively removed.
+
+* _rename option `whitelist` to `supportedLngs`_
+* _rename option `nonExplicitWhitelist` to `nonExplicitSupportedLngs`_
+* _rename function `languageUtils.isWhitelisted` to `languageUtils.isSupportedCode`_
+
+#### New resolvedLanguage
+
+There is a new [`i18next.resolvedLanguage`](../overview/api.md#resolvedlanguage) property that represents the currently resolved language. It can be used as the primary used language, for example in a language switcher.
+
+#### defaultNS
+
+If passing the `ns` option, the `defaultNS` will, by default, be set to the first ns passed.
+
+### v19.x.x to v20.0.0
+
+There should not be any breaking change, but because of some misuse of i18next that popped up in the last minor releases, we opted for a major version this time.\
+The relevant change behind the scenes for this major version was [ignoreJSONStructure](https://github.com/i18next/i18next/blob/master/CHANGELOG.md#2000).
+
+### v18.x.x to v19.0.0
+
+TypeScript uses `export default` for an ESM-first approach [1352](https://github.com/i18next/i18next/pull/1352). No API changes.
+
+### v17.x.x to v18.0.0
+
+* When calling `i18next.changeLanguage()` both `i18next.language` and `i18next.languages` will be set to the new language after calling `loadResources`; this means that when accessing the `t` function in the meantime, you will still get the translations for the previous language instead of the fallback.
+* **When is this breaking?** This does not break any current test, but if you depend on accessing i18next.language or i18next.dir during language change and expect the new language this will break your app.
+* Reasoning: In react-i18next we get in a not ready state for loaded translations while we would prefer just waiting for the new language ready and trigger a rerender then, also a triggered rerender outside of the bound events would end in Suspense...
+* How can I get the language i18next will be set to? `i18next.isLanguageChangingTo` is set to the language called
+
+### v16.x.x to v17.0.0
+
+* removes named exports in index.js to avoid issues in bundlers
+
+### v15.x.x to v16.0.0
+
+* Build process was updated, no API changes
+* **note:** dist/es -> dist/esm, dist/commonjs -> dist/cjs (individual files -> one bundled file)
+
+### v14.x.x to v15.0.0
+
+* Build process was updated, no API changes
+
+### v13.x.x to v14.0.0
+
+* Breaking changes in TypeScript typings; for details, have a look at this [pull request](https://github.com/i18next/i18next/pull/1180).
+
+### v12.x.x to v13.0.0
+
+* TypeScript definitions can now be used directly from the i18next module, no longer needed to get them from DefinitelyTyped
+* functions used to return a callback (e.g. init, changeLanguage, loadNamespaces) now also return a Promise. While this enables easier handling using async await, it also means e.g. i18next.init does not return this any longer and therefore you can't chain calls like `i18next.init().on()` any longer.
+
+### v11.x.x to v12.0.0
+
+* plural form for Hebrew was updated to the latest [CLDR](http://www.unicode.org/cldr/charts/33/supplemental/language_plural_rules.html#he). Before it had one plural form. You will have to update your JSON files containing Hebrew plurals. Or patch back the plural form to: [https://github.com/i18next/i18next/blob/master/src/PluralResolver.js#L43](https://github.com/i18next/i18next/blob/master/src/PluralResolver.js#L43) using the [addRule function](https://github.com/i18next/i18next/blob/master/src/PluralResolver.js#L90).\
+  \
+  Learn more about plurals: [Plurals](/translation-function/plurals)
+
+### v10.x.x to v11.0.0
+
+* removes plugin of type cache. Can be replaced by [i18next-chained-backend](https://github.com/i18next/i18next-chained-backend); example cache for localStorage [i18next-localstorage-backend](https://github.com/i18next/i18next-localstorage-backend#getting-started)
+* removes the support for multiload (multiRead) in backends, will just use read per language-namespace. You can enable multiRead support in backends again by using [i18next-multiload-backend-adapter](https://github.com/i18next/i18next-multiload-backend-adapter)
+
+### v9.x.x to v10.0.0
+
+brings pt, pt-PT, pt-BR plurals in line with the CLDR plural rules: the new pt reflects pt-BR, and pt-PT gets a special case for plural handling: [http://www.unicode.org/cldr/charts/26/supplemental/language\_plural\_rules.html](http://www.unicode.org/cldr/charts/26/supplemental/language_plural_rules.html)
+
+| code   | locale               | rule                        |
+| ------ | -------------------- | --------------------------- |
+| pt-PT  | Portugal Portuguese  | plurals=2; plural=(n != 1); |
+| pt\_BR | Brazilian Portuguese | plurals=2; plural=(n > 1);  |
+| pt     | Portuguese           | plurals=2; plural=(n > 1);  |
+
+### v8.x.x to v9.0.0
+
+With v9 we removed the compatibility for the v1 API. So the `compatibilityAPI: 'v1'` flag won't do anything anymore.
+
+You still can append this manually as we do for our old v1 tests, [learn more](https://github.com/i18next/i18next/tree/master/test/compatibility/v1).
+
+### v7.x.x to v8.0.0
+
+The `nonExplicitWhitelist` flag was changed to be used in the user-detected language too, before it was restricted to defined fallback languages only.
+
+```
+i18next.init({
+  fallbackLng: 'en',
+  whitelist: ['de', 'en', 'zh'],
+  nonExplicitWhitelist: true
+});
+
+// eg. `de-AT` will now pass the whitelist check
+```
+
+### v6.x.x to v7.0.0
+
+We used to resolve nb-NO, nn-NO to no as language part mainly because there was no way to properly define per-locale fallbacks. With v7.0.0 we removed that to enable default behavior also for the Norwegian language. To get back the old behavior you can define multiple fallbacks like:
+
+```
+fallbackLng: {
+  'nb': ['no', 'en'],
+  'nn': ['no', 'en'],
+  'default': ['en']
+}
+```
+
+Additionally, starting from 7.0.0 you could use named exports:
+
+```
+import { init, t } from 'i18next';
+```
+
+### v5.x.x to v6.0.0
+
+Return namespace in cimode with appendNamespaceToCIMode option (default now will only return key without namespace, independent of call to t function) [#863](https://github.com/i18next/i18next/issues/863)
+
+This change might break your e2e tests if you're depending on the cimode (the returned value can now be set to return always only key or ns+key)
+
+### v4.x.x to v5.0.0
+
+Nested keys should not be escaped [#854](https://github.com/i18next/i18next/issues/854)
+
+i18next.cloneInstance() now calls init() (before it depended on having called that function with a callback) [#860](https://github.com/i18next/i18next/pull/860)
+
+### v3.x.x to v4.0.0
+
+There is only a small change for webpack2 builds which now target an ES build with import/export in place to enable tree shaking (module entrypoint in package.json).
+
+Nothing breaking for non-webpack2 users.
+
+### v2.x.x to v3.0.0
+
+There is one breaking change regarding suffixing plurals in cases a language has multiple plural forms. E.g. Arabic suffixes are now 0, 1, 2, 3, 4, 5 instead of 0, 1, 2, 3, 11, 100.
+
+This change streamlines the suffix with the one used in gettext.
+
+To enforce the old behavior you can enable `compatibilityJSON = 'v2'` on i18next init call.
+
+```javascript
+import i18next from 'i18next';
+
+i18next.init({
+  compatibilityJSON: 'v2'
+}, (err, t) => { /* resources are loaded */ });
+```
+
+### v1.11.x to v2.0.0
+
+While v2.0.0 is a full rewrite of the old codebase it should be possible to run it in your app without completely rewriting your integration.
+
+#### Getting started
+
+The new version does not come with backend, cache and user language detection built in. i18next is more a core library that can be extended with modules on demand. This way it can be used in the browser, Node.js or other JavaScript runtimes.
+
+Modules are available on npm, via bower or on GitHub to download.
+
+#### Browser
+
+```javascript
+import i18next from 'i18next';
+import XHR from 'i18next-xhr-backend';
+import Cache from 'i18next-localstorage-cache';
+import sprintf from 'i18next-sprintf-postprocessor';
+import LanguageDetector from 'i18next-browser-languagedetector';
+
+i18next
+  .use(XHR)
+  .use(Cache)
+  .use(LanguageDetector)
+  .use(sprintf)
+  .init(options, callback);
+```
+
+**Hint for jQuery users:** use additional [jquery-i18next](https://github.com/i18next/jquery-i18next)
+
+#### Node.js
+
+```javascript
+var i18next = require('i18next'),
+  FilesystemBackend = require('i18next-node-fs-backend'),
+  sprintf = require('i18next-sprintf-postprocessor');
+
+i18next
+  .use(FilesystemBackend)
+  .use(sprintf)
+  .init(options, callback);
+```
+
+#### Node.js + Express
+
+```javascript
+var express = require('express');
+  i18next = require('i18next'),
+  FilesystemBackend = require('i18next-node-fs-backend'),
+  sprintf = require('i18next-sprintf-postprocessor'),
+  i18nextMiddleware = require('i18next-express-middleware');
+
+i18next
+  .use(i18nextMiddleware.LanguageDetector)
+  .use(FilesystemBackend)
+  .use(sprintf)
+  .init(options, callback);
+
+var app = express();
+
+app.use(i18nextMiddleware.handle(i18next)); // expose req.t with fixed lng
+// serves missing key route for consumers (browser)
+app.post('/locales/add/:lng/:ns', i18nextMiddleware.missingKeyHandler(i18next));
+// serves resources for consumers (browser)
+app.get(
+  '/locales/resources.json',
+  i18nextMiddleware.getResourcesHandler(i18next)
+);
+
+app.listen(3000);
+```
+
+#### Running v2.0.0 with compatibility flags
+
+Version 2.0.0 has a compatibility layer built in which allows you to run it like v1.11.x. Keep in mind this layer will be removed in a future version.
+
+```javascript
+import i18next from 'i18next';
+
+i18next.init({
+  compatibilityAPI: 'v1',
+  compatibilityJSON: 'v1',
+  // ...old options from v1
+}, (err, t) => { /* resources are loaded */ });
+```
+
+| option            | description                                                                                                                                                                         |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| compatibilityAPI  | Will convert init and t options and expose old API functions. Will be removed with a future update.                                                                                 |
+| compatibilityJSON | Will allow using JSON files in v1 format. Using old interpolation prefix, suffix and no need for singular suffix \[0] for singular in languages with more than just 1 plural form. |
+
+#### Not supported any longer in v2.0.0
+
+*   **support for older browsers**:
+
+    Beginning with v2 we target only modern browsers (Chrome, Firefox, ... and IE >= 10).
+
+    For IE9 you will need to add an ES5 shim
+*   **jQuery**:
+
+    use additional [jquery-i18next](https://github.com/i18next/jquery-i18next)
+*   **synchronous loading**:
+
+    `i18next.init({ getAsync: false });`
+
+    is not supported any longer, as not encouraged by browsers.
+*   **no conflict:**
+
+    `i18n.noConflict();`
+
+    was removed as i18next registers to window.i18next and no longer to window.i18n
+*   **indefinite article:**
+
+    `i18n.t('myKey', { indefinite_article: true })`
+
+    was removed, as the solution was too limited, reconsidering adding a better solution in a future v2 release

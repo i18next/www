@@ -1,0 +1,215 @@
+<!-- The home page, in G's markup. Every figure in an element with data-fact is filled in at build
+     (pages/index/+data.js): usage from content/usage.json, npm and registry figures from src/facts.js. The logo list
+     comes from content/usage.json too. -->
+<!-- The promise and what i18next is, with the code beside it: no picture, the product itself -->
+  <section class="h-hero">
+    <div class="wrap h-hero-grid">
+      <div class="h-promise">
+        <h1>Your site or app in more languages. Every text in a plain file in your repo.</h1>
+        <p class="h-sub"><strong>i18next</strong> is the open-source way to make a site or app multilingual: the rules of each
+          language, the same in React, Next, Astro and many other frameworks. Written by you or by your agent, readable by both.</p>
+        <div class="h-actions">
+          <a class="btn primary" href="/overview/getting-started">Get started</a>
+          <a class="btn" href="/with-your-agent">With your agent</a>
+        </div>
+        <div class="h-install"><code>npm install i18next</code><span>MIT · since 2011</span></div>
+      </div>
+
+      <div class="h-code" aria-label="i18next in three steps">
+        <div class="tabs" role="tablist" aria-label="Language" data-lng-pick>
+          <button role="tab" aria-selected="true" aria-controls="h-en" data-lng="en">en</button>
+          <button role="tab" aria-selected="false" aria-controls="h-de" data-lng="de">de</button>
+        </div>
+        <div class="h-code" role="tabpanel" id="h-en">
+          <div class="code"><div class="code-head">locales/en/common.json</div>
+<pre><code>{
+  <span class="tok-k">"loaves_one"</span>: <span class="tok-s">"One rye loaf for tomorrow"</span>,
+  <span class="tok-k">"loaves_other"</span>: <span class="tok-s">"{{count}} rye loaves for tomorrow"</span>
+}</code></pre></div>
+          <div class="code"><div class="code-head">your code</div>
+<pre><code>t(<span class="tok-s">'loaves'</span>, { count: <span class="tok-k">3</span> })</code></pre></div>
+          <p class="h-out"><span class="h-out-l">en</span>3 rye loaves for tomorrow</p>
+        </div>
+        <div class="h-code" role="tabpanel" id="h-de" hidden>
+          <div class="code"><div class="code-head">locales/de/common.json</div>
+<pre><code>{
+  <span class="tok-k">"loaves_one"</span>: <span class="tok-s">"Ein Roggenbrot für morgen"</span>,
+  <span class="tok-k">"loaves_other"</span>: <span class="tok-s">"{{count}} Roggenbrote für morgen"</span>
+}</code></pre></div>
+          <div class="code"><div class="code-head">your code</div>
+<pre><code>t(<span class="tok-s">'loaves'</span>, { count: <span class="tok-k">3</span> })</code></pre></div>
+          <p class="h-out"><span class="h-out-l">de</span>3 Roggenbrote für morgen</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who runs it: logos first for people, the number and its method small below for agents and sceptics -->
+  <section class="h-sec h-users">
+    <div class="wrap">
+      <h2 class="h-title">Sites that run i18next</h2>
+      <ul class="logos">
+        <li><span class="logo-ph" role="img" aria-label="Company 1 (placeholder)">Logo 1</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 2 (placeholder)">Logo 2</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 3 (placeholder)">Logo 3</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 4 (placeholder)">Logo 4</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 5 (placeholder)">Logo 5</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 6 (placeholder)">Logo 6</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 7 (placeholder)">Logo 7</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 8 (placeholder)">Logo 8</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 9 (placeholder)">Logo 9</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 10 (placeholder)">Logo 10</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 11 (placeholder)">Logo 11</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 12 (placeholder)">Logo 12</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 13 (placeholder)">Logo 13</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 14 (placeholder)">Logo 14</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 15 (placeholder)">Logo 15</span></li>
+        <li><span class="logo-ph" role="img" aria-label="Company 16 (placeholder)">Logo 16</span></li>
+      </ul>
+      <p class="users-src">i18next runs in the own code of at least <b data-fact="usage.hits">1,188</b> of the 100,000 most linked
+        websites (Majestic list of <time>2026-11-17</time>, scan of November 2026; the logos are the first of them by rank, each checked in
+        a browser) · <a href="/blog/who-uses-i18next">method</a><br>
+        <b data-fact="downloads.count">37.1 million</b> npm downloads of i18next in the week of
+        <time data-fact="downloads.start">2026-11-13</time> to <time data-fact="downloads.end">2026-11-19</time>; downloads count installs, CI and agents included, not
+        users · <a href="https://www.npmjs.com/package/i18next">npm</a></p>
+    </div>
+  </section>
+
+  <!-- One solution, the same everywhere -->
+  <section class="h-sec">
+    <div class="wrap same">
+      <div>
+        <h2 class="h-title">One solution, the same everywhere</h2>
+        <p class="muted">The same library, the same translation files and the same <code>t('key')</code> call in your app, your
+          marketing site and your content site. What you or your agent learned once carries over.</p>
+        <ul class="stack-list">
+          <li><b>React</b><span>Apps and SaaS, with <code>react-i18next</code>. <a class="link-arrow" href="/react">Docs</a></span></li>
+          <li><b>Next</b><span>App Router and Pages Router, with <code>next-i18next</code> v16. <a class="link-arrow" href="/next">Docs</a></span></li>
+          <li><b>Astro</b><span>Marketing and content sites, plain i18next at build time. <a class="link-arrow" href="/astro">Docs</a></span></li>
+        </ul>
+        <p class="more-stacks">Also <a href="/react/react-native">React Native and Expo</a>, Node and Deno servers (<a href="https://github.com/i18next/i18next-http-middleware">i18next-http-middleware</a>), and Vue, Angular, Svelte and more <a href="/overview/supported-frameworks">by the community</a>.</p>
+      </div>
+      <div>
+        <div class="tabs" role="tablist" aria-label="Framework">
+          <button role="tab" aria-selected="true" aria-controls="s-react">React</button>
+          <button role="tab" aria-selected="false" aria-controls="s-next">Next</button>
+          <button role="tab" aria-selected="false" aria-controls="s-astro">Astro</button>
+        </div>
+        <div class="stack-pane" role="tabpanel" id="s-react">
+          <div class="code"><div class="code-head">src/Order.jsx</div>
+<pre><code><span class="tok-k">import</span> { useTranslation } <span class="tok-k">from</span> <span class="tok-s">'react-i18next'</span>
+
+<span class="tok-k">export function</span> Order({ count }) {
+  <span class="tok-k">const</span> { t } = useTranslation(<span class="tok-s">'common'</span>)
+  <span class="tok-k">return</span> &lt;p&gt;{t(<span class="tok-s">'loaves'</span>, { count })}&lt;/p&gt;
+}</code></pre></div>
+        </div>
+        <div class="stack-pane" role="tabpanel" id="s-next" hidden>
+          <div class="code"><div class="code-head">app/[lng]/page.tsx</div>
+<pre><code><span class="tok-k">import</span> { getT } <span class="tok-k">from</span> <span class="tok-s">'@/i18n.server'</span>  <span class="tok-c">// next-i18next, bound to your config</span>
+
+<span class="tok-k">export default async function</span> Page() {
+  <span class="tok-k">const</span> { t } = <span class="tok-k">await</span> getT()
+  <span class="tok-k">return</span> &lt;p&gt;{t(<span class="tok-s">'loaves'</span>, { count: 3 })}&lt;/p&gt;
+}</code></pre></div>
+        </div>
+        <div class="stack-pane" role="tabpanel" id="s-astro" hidden>
+          <div class="code"><div class="code-head">src/pages/[lang]/index.astro</div>
+<pre><code>---
+<span class="tok-k">import</span> { getT } <span class="tok-k">from</span> <span class="tok-s">'../../i18n'</span>  <span class="tok-c">// plain i18next, run at build time</span>
+<span class="tok-k">const</span> t = getT(Astro.params.lang)
+---
+&lt;p&gt;{t(<span class="tok-s">'loaves'</span>, { count: 3 })}&lt;/p&gt;</code></pre></div>
+        </div>
+        <div class="code json-file"><div class="code-head">locales/de/common.json · the same file in all three</div>
+<pre><code>{
+  <span class="tok-k">"loaves_one"</span>: <span class="tok-s">"Ein Roggenbrot für morgen"</span>,
+  <span class="tok-k">"loaves_other"</span>: <span class="tok-s">"{{count}} Roggenbrote für morgen"</span>
+}</code></pre></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What i18next is: three plain statements, no icons -->
+  <section class="h-sec">
+    <div class="wrap">
+      <h2 class="h-title">How i18next works</h2>
+      <dl class="h-is">
+        <div><dt>Extract</dt><dd><code>i18next-cli</code> finds texts still written into the code, writes their keys into
+          the files and keeps every language in step with the first. Your agent runs the same commands.</dd></div>
+        <div><dt>Runtime</dt><dd>In the browser, on the server and at build time, with React, Next, Astro or no framework at
+          all. Plurals, numbers, dates and lists follow the rules of each language (<code>Intl</code>). i18next 27 itself
+          installs no other package.</dd></div>
+        <div><dt>Structure</dt><dd>One plain JSON file per language and namespace, in your repository. Any editor, any agent
+          and any translation tool can read and change it; your code only knows the key.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- The way to the agent page: the first sentence of the conversation -->
+  <section class="h-agent">
+    <div class="wrap h-agent-grid">
+      <div>
+        <p class="h-label">With your agent</p>
+        <p class="h-said">“Make my bakery’s website available in German and French.”</p>
+        <p class="muted">One sentence to your agent, and the site speaks three languages, with i18next beneath it.
+          A week later the shop assistant, who is from France, rewords the French tagline herself. Read the whole conversation, or the one for an
+          app you already have.</p>
+        <a class="btn" href="/with-your-agent">Read the conversation</a>
+      </div>
+      <div class="h-agent-gets">
+        <p class="h-label">What your agent finds here</p>
+        <ul>
+          <li>Every docs page as Markdown, and <code>llms.txt</code></li>
+          <li>A prompt for each case, from a new site to texts your client edits</li>
+          <li>An agent skill for setting up i18next</li>
+          <li><code>i18next-cli</code> to extract keys and check every language in CI</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facts with their source and date -->
+  <section class="h-sec">
+    <div class="wrap">
+      <h2 class="h-title">What you can check</h2>
+      <dl class="checkable">
+        <div><dt>Since 2011</dt><dd>Open source under the MIT license since the first commit on <time>2011-12-16</time>. Latest release:
+          i18next <span data-fact="i18next.latest">27.2.2</span> on <time data-fact="i18next.released">2026-11-19</time>.<span class="src">GitHub, npm registry · read when this page was built</span></dd></div>
+        <div><dt>What i18next ships</dt><dd>i18next 27.2.2 with react-i18next 18.0.3: 17.4 KB gzip, once. Your texts add about 35 bytes each per language: 1,000 texts are about 35 KB for the language a
+          visitor loads. A static Astro site that runs i18next at build time sends no i18next code; its texts are in the HTML.<span class="src">Vite build, measured <time>2026-11-21</time>, script rerunnable</span></dd></div>
+        <div><dt>Checked in CI</dt><dd><code>i18next-cli status</code> exits non-zero when a translation is missing. Run in CI, it
+          stops the build before a missing text goes live.<span class="src">i18next-cli <span data-fact="cli.version">1.91.3</span>, README</span></dd></div>
+        <div><dt>Fixed when disclosed</dt><dd><span data-fact="advisories.lastYear">3</span> security advisories for i18next in
+          the twelve months up to <time data-fact="asOf">2026-11-20</time>, each published with the release that fixes it. On
+          the latest release, none of them applies.<span class="src">GitHub security advisories, npm registry · read when this page was built</span></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- The way into the docs -->
+  <section class="h-sec">
+    <div class="wrap">
+      <h2 class="h-title">Start in the docs</h2>
+      <ul class="h-docs">
+        <li><a href="/overview/getting-started"><b>Getting started</b><span>Install i18next, add translations, call <code>t()</code></span></a></li>
+        <li><a href="/introduction"><b>i18next</b><span>The core library, and where to start</span></a></li>
+        <li><a href="/react"><b>React</b><span><code>useTranslation</code>, <code>Trans</code>, Suspense</span></a></li>
+        <li><a href="/next"><b>Next</b><span>App Router and Pages Router, <code>next-i18next</code> v16</span></a></li>
+        <li><a href="/astro"><b>Astro</b><span>Plain i18next at build time, no JavaScript sent</span></a></li>
+        <li><a href="/overview/supported-frameworks"><b>More</b><span>Vue, Angular, Svelte and other integrations, kept by the community</span></a></li>
+        <li><a href="/cli"><b>CLI</b><span><code>extract</code>, <code>instrument</code>, <code>status</code></span></a></li>
+        <li><a href="/misc/json-format"><b>Shared i18n syntax</b><span>Plurals, context, nesting and formatting in one format</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- The one marked sponsor place -->
+  <section class="section sponsor-sec">
+    <div class="wrap">
+      <locize-block wide title="Locize, from the people who maintain i18next" href="https://www.locize.com/i18next" link="Locize with i18next">
+        <p>Locize is our translation management service, and its customers fund the work on i18next. It fits when people who
+          do not write code change the texts, and when every language should be updated in one place.</p>
+      </locize-block>
+    </div>
+  </section>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">An Astro page that calls t() at build time, and the English and German HTML it becomes, without a script tag</title>
+  <!-- Mixed cover (round 3): the page and both outputs, in the words of the start page example (content/home.html). -->
+  <rect width="1200" height="630" fill="#14211e"/>
+  <rect x="0" y="0" width="1200" height="64" fill="#1a2b27"/>
+  <circle cx="44" cy="32" r="7" fill="#3b524c"/><circle cx="68" cy="32" r="7" fill="#3b524c"/><circle cx="92" cy="32" r="7" fill="#3b524c"/>
+  <text x="128" y="40" fill="#8ea7a1" font-family="ui-monospace, SF Mono, Menlo, Consolas, monospace" font-size="22">src/pages/[lang]/index.astro</text>
+  <g font-family="ui-monospace, SF Mono, Menlo, Consolas, monospace" font-size="30">
+    <text x="64" y="130" fill="#8ea7a1">---</text>
+    <text xml:space="preserve" x="64" y="178"><tspan fill="#7fdcca">const</tspan><tspan fill="#dfeae6"> t = getT(lang, </tspan><tspan fill="#f0c987">'home'</tspan><tspan fill="#dfeae6">)</tspan></text>
+    <text x="64" y="226" fill="#8ea7a1">---</text>
+    <text xml:space="preserve" x="64" y="274" fill="#dfeae6">&lt;p&gt;{t(<tspan fill="#f0c987">'loaves'</tspan>, { count: <tspan fill="#7fdcca">3</tspan> })}&lt;/p&gt;</text>
+  </g>
+  <rect x="64" y="312" width="1072" height="2" fill="#2a3a36"/>
+  <g font-family="ui-monospace, SF Mono, Menlo, Consolas, monospace">
+    <text x="64" y="364" fill="#8ea7a1" font-size="22">dist/en/index.html · astro build</text>
+    <text x="64" y="408" fill="#dfeae6" font-size="30">&lt;p&gt;3 rye loaves for tomorrow&lt;/p&gt;</text>
+    <text x="64" y="460" fill="#8ea7a1" font-size="22">dist/de/index.html · astro build</text>
+    <text x="64" y="504" fill="#dfeae6" font-size="30">&lt;p&gt;3 Roggenbrote für morgen&lt;/p&gt;</text>
+    <text x="64" y="572" fill="#7fdcca" font-size="26">0 script tags · 0 JavaScript files</text>
+  </g>
+</svg>

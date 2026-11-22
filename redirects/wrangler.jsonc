@@ -1,0 +1,18 @@
+// The redirect Worker for the old hosts, on their custom domains, and the daily rebuild of www (a cron that calls
+// www's Deploy Hook, secret DEPLOY_HOOK_URL). `npm run deploy:redirects` publishes it to the account of the
+// i18next.com zone; see "Deploy" in README.md.
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "i18next-old-hosts",
+  "account_id": "198b8acde27be4094cda0bd7ee1a7c9d",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-30",
+  "routes": [
+    { "pattern": "react.i18next.com", "custom_domain": true },
+    { "pattern": "i18next.com", "custom_domain": true }
+  ],
+  "triggers": { "crons": ["0 5 * * *"] },
+  "workers_dev": false,
+  "preview_urls": false,
+  "send_metrics": false
+}

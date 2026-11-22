@@ -1,0 +1,55 @@
+<!-- "Make each language version findable", below "With your agent", in G's markup. No Locize block: it does not solve
+     this problem. Prompt test 2026-11-20: Claude Sonnet 5.5 and Haiku 5.5 each built it from a start project, all
+     checks passed; other agents not yet. -->
+<pre>Make each language version of this site findable:
+- one address per language (<span class="ph">[/en/, /de/]</span>), never only a cookie or
+  the browser's language
+- &lt;html lang&gt; set to the language of the page
+- &lt;link rel="alternate" hreflang&gt; to every language version of the page,
+  and hreflang="x-default" to the default language
+- a sitemap that lists every language version of every page
+- the &lt;title&gt; and meta description from the translation files
+At the end, show me the &lt;head&gt; of one page in each language.</pre>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>What your agent does</h2>
+      <ol class="checklist">
+        <li>Gives each language its own address (<code>/en/</code>, <code>/de/</code>), never only a cookie or the browser's
+          language.</li>
+        <li>Sets <code>&lt;html lang&gt;</code> to the language of the page.</li>
+        <li>Adds <code>&lt;link rel="alternate" hreflang&gt;</code> to every language version of the page, and
+          <code>x-default</code> to the default language.</li>
+        <li>Writes a sitemap that lists every language version of every page.</li>
+        <li>Takes the <code>&lt;title&gt;</code> and meta description from the translation files.</li>
+        <li>Shows you the <code>&lt;head&gt;</code> of one page in each language.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>Where it goes in your framework</h2>
+      <ul class="checklist">
+        <li><strong>Astro:</strong> a page file under <code>src/pages/[lang]/</code> gives each language its address (Astro's
+          i18n routing adds the redirect and the URL helpers); the layout writes the hreflang links,
+          as in <a href="/astro/getting-started#4-language-switch-and-hreflang">Getting started with Astro</a>.</li>
+        <li><strong>Next:</strong> next-i18next puts the language in the path; <code>generateMetadata</code> returns
+          <code>alternates.languages</code> with <code>getLocalizedPath</code> for each language, as in
+          <a href="/next/app-router/translated-paths">Translated paths</a> of the next-i18next docs.</li>
+        <li><strong>A single-page app</strong> that keeps the language only in the browser has one address for all
+          languages. Give each language its own path first (a router with <code>/:lng/</code>), then the rest of the prompt
+          applies.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>Before it goes live</h2>
+      <ul class="checklist">
+        <li>Open one page in each language: the address, <code>&lt;html lang&gt;</code>, the title and the texts change together.</li>
+        <li>Each hreflang link points to a page that exists and links back.</li>
+      </ul>
+    </div>
+  </section>

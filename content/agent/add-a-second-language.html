@@ -1,0 +1,41 @@
+<!-- "Add a second language", below "With your agent", in G's markup (like build-multilingual-site). The prompt is the
+     one i18next's own docs give (getting started); the steps are what `i18next-cli localize --print-agent-prompt`
+     prints in i18next-cli 1.91. Prompt test 2026-11-20: Claude Sonnet 5.5 and Haiku 5.5 each built it from a start
+     project, all checks passed; other agents not yet. -->
+<pre>Localize this app with i18next, in <span class="ph">[English and German]</span>.
+Run `npx i18next-cli localize --print-agent-prompt` and follow
+the steps it prints, in order, checking each one before the next.</pre>
+<p class="after note">The command prints the steps for the i18next-cli version it runs,
+        so the prompt does not go stale. When the project has no i18next configuration yet, your agent asks you one question before it writes one: where the translation files live.</p>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>What your agent does</h2>
+      <ol class="checklist">
+        <li>Checks the stack. React and Next work as they are; Vue and Svelte need a community plugin for i18next-cli. In Astro,
+          <code>instrument</code> does not read <code>.astro</code> files, so your agent writes the <code>t()</code> calls,
+          and <a href="/astro/getting-started#5-extract-keys-and-check-every-language">i18next-cli-plugin-astro</a> lets <code>extract</code>, <code>status</code> and <code>lint</code> read them.</li>
+        <li>Writes the configuration (<code>i18next.config.ts</code>, or <code>.js</code> in a JavaScript project) with your languages: <code>npx i18next-cli init --yes --locales en,de --backend local</code>.</li>
+        <li>Runs <code>npx i18next-cli instrument --dry-run</code>, then <code>instrument</code>: the hardcoded texts go
+          through <code>t()</code> (in Next, <code>await getT()</code> in Server Components and <code>useT()</code> in Client
+          Components). It lists the texts it left, and your agent moves those; it checks the diff and the warnings before it
+          commits.</li>
+        <li>Runs <code>npx i18next-cli extract</code>: every key lands in one JSON file per language and namespace.</li>
+        <li>Translates the new language, then runs <code>npx i18next-cli status</code> (no text missing in any language) and
+          <code>npx i18next-cli lint</code> (it warns when a translation drops a placeholder of the English).</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap readable">
+      <h2>Before it goes live</h2>
+      <ul class="checklist">
+        <li>Have the new language read by someone who speaks it. An agent's translation is a first draft.</li>
+        <li>Look at the pages with the longest texts: German words are longer, buttons and table heads may wrap.</li>
+        <li>Add <code>npx i18next-cli status</code> to CI, so a text added later without its translation stops the build.</li>
+      </ul>
+      <p class="note">Writing the code yourself? <a href="/overview/getting-started">Getting started</a>
+        and the <a href="/cli">i18next-cli docs</a> describe each command.</p>
+    </div>
+  </section>

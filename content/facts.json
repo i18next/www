@@ -1,0 +1,19 @@
+{
+  "asOf": "2026-11-20",
+  "downloads": {
+    "count": 37082190,
+    "start": "2026-11-13",
+    "end": "2026-11-19"
+  },
+  "i18next": {
+    "latest": "27.2.2",
+    "released": "2026-11-19"
+  },
+  "advisories": {
+    "lastYear": 3,
+    "fixed": 3
+  },
+  "cli": {
+    "version": "1.93.0"
+  }
+}

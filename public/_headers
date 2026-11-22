@@ -1,0 +1,23 @@
+# Copied from locize.com's www (public/_headers), trimmed to what this site loads.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), browsing-topics=()
+  X-Frame-Options: SAMEORIGIN
+  # No 'unsafe-inline' in script-src: the page has no inline script (gtag defaults are /assets/consent-defaults.js),
+  # so HTML that arrives with the README content cannot run script. Vike's inline JSON blocks are not executed.
+  # 'wasm-unsafe-eval' lets Pagefind compile its WebAssembly; it does not allow eval().
+  # Cloudflare Web Analytics ("automatic setup", as on www) injects https://static.cloudflareinsights.com/beacon.min.js
+  # and reports to /cdn-cgi/rum ('self'); cloudflareinsights.com in connect-src is for a manual embed.
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'wasm-unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com; connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://cloudflareinsights.com; frame-src 'self' https://www.youtube-nocookie.com; upgrade-insecure-requests
+
+# Markdown copy of each page, written by scripts/postbuild.js.
+/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+/*llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+/*llms-full.txt
+  Content-Type: text/plain; charset=utf-8

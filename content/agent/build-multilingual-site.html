@@ -1,0 +1,109 @@
+<!-- "Build a multilingual website with your agent": below "With your agent", in G's markup. The prompts follow
+     i18next-cli 1.91 with i18next-cli-plugin-astro 1.0 and next-i18next 16; prompt test 2026-11-20: Claude Sonnet 5.5
+     and Haiku 5.5 each built both from an empty folder, all checks passed; other agents not yet. -->
+<!-- Screen 1: the prompt and the note under it; crumb, title, quote and who-has come from pages.json (src/agentPages.js) -->
+<pre>Build a website for <span class="ph">[my bakery, Example Bakery]</span>
+in <span class="ph">[English and German]</span>, <span class="ph">[English]</span> as the default language,
+with Astro and i18next (v27).
+
+Use plain i18next at build time, no extra integration package:
+- one page file per page under src/pages/[lang]/,
+  with getStaticPaths for each language
+- the texts in src/locales/&lt;lang&gt;/common.json, string keys with t('key')
+- plurals with the _one and _other suffixes and count
+- a language switcher, &lt;html lang&gt;, and hreflang links
+  between the language versions of each page
+- i18next-cli with i18next-cli-plugin-astro, and
+  "build": "i18next-cli status &amp;&amp; astro build"
+  so a missing translation stops the build
+At the end, list the translation files so I can check the texts.</pre>
+<p class="after note">Building with Next instead? The way for Next, with its prompt, is <a href="#next">below</a>.
+        This page as Markdown for your agent: <a href="/with-your-agent/build-multilingual-site.md" rel="external">build-multilingual-site.md</a></p>
+
+  <!-- Screen 2: the two ways -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What your agent builds</h2>
+        <p class="muted">Both ways use the same translation files and the same <code>t('key')</code> call, so the texts move with you if you
+          change the framework later.</p>
+      </div>
+      <div class="ways">
+        <div class="way" id="astro">
+          <h3>Astro <span class="badge">Static site</span></h3>
+          <p>A site that is built once and served as plain HTML. i18next runs while the site is built.</p>
+          <ol>
+            <li>One page file serves every language: <code>src/pages/[lang]/index.astro</code> → <code>/en/</code>, <code>/de/</code>.</li>
+            <li>Each language page creates its own i18next instance with that language.</li>
+            <li>The texts sit in one JSON file per language.</li>
+          </ol>
+          <div class="code"><div class="code-head">src/pages/[lang]/index.astro</div>
+<pre><code>---
+<span class="tok-k">import</span> i18next <span class="tok-k">from</span> <span class="tok-s">'i18next'</span>
+<span class="tok-k">import</span> en <span class="tok-k">from</span> <span class="tok-s">'../../locales/en/common.json'</span>
+<span class="tok-k">import</span> de <span class="tok-k">from</span> <span class="tok-s">'../../locales/de/common.json'</span>
+
+<span class="tok-k">export function</span> getStaticPaths() {
+  <span class="tok-k">return</span> [{ params: { lang: <span class="tok-s">'en'</span> } }, { params: { lang: <span class="tok-s">'de'</span> } }]
+}
+<span class="tok-k">const</span> i18n = i18next.createInstance()
+<span class="tok-k">await</span> i18n.init({ lng: Astro.params.lang,
+  defaultNS: 'common', resources: { en: { common: en }, de: { common: de } } })
+<span class="tok-k">const</span> t = i18n.t
+---
+&lt;h1&gt;{t(<span class="tok-s">'hero.title'</span>)}&lt;/h1&gt;
+&lt;p&gt;{t(<span class="tok-s">'loaves'</span>, { count: 3 })}&lt;/p&gt;</code></pre></div>
+          <p class="note end">In a test on <time>2026-11-19</time> (Astro 7.4.13, i18next 27.2.2) the build wrote one HTML file
+            per language and page, with no JavaScript file and no script tag. Server rendering and interactive islands were not part of that test.</p>
+        </div>
+
+        <div class="way alt" id="next">
+          <h3>Alternative with Next <span class="badge">App Router</span></h3>
+          <p>A site with a server, for example with forms, a login or a shop. <code>next-i18next</code> v16 puts the language in the path
+            and loads the texts on the server.</p>
+          <ol>
+            <li>The language is the first part of every address: <code>/en/about</code>, <code>/de/about</code>.</li>
+            <li>Server Components read texts with <code>await getT()</code>, Client Components with <code>useT()</code>.</li>
+            <li>The texts sit in one JSON file per language and namespace.</li>
+          </ol>
+          <div class="prompt">
+            <div class="prompt-head"><span class="label">Prompt for Next</span><button class="copy small" data-copy>Copy</button></div>
+<pre>Build a website for <span class="ph">[my bakery, Example Bakery]</span> in <span class="ph">[English and German]</span>, <span class="ph">[English]</span> as the default language, with Next.js (App Router), next-i18next (v16) and i18next (v27). Put the language in the path (/en, /de), use await getT() in Server Components and useT() in Client Components, string keys with t('key'), and add hreflang links between the language versions. At the end, list the translation files so I can check the texts.</pre>
+          </div>
+          <p class="onward end"><a class="link-arrow" href="/next/app-router/setup">App Router setup, step by step</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screen 4: the one Locize block -->
+  <section class="section" id="texts-later">
+    <div class="wrap readable">
+      <h2>When the client changes the texts later</h2>
+      <p>Your texts are JSON files in the repository. When the client wants a change, there are two ways.</p>
+      <div class="ways">
+        <div class="way">
+          <h3>The client sends the change</h3>
+          <p class="end">You or your agent edit the file and deploy. It costs nothing extra and fits when changes are rare and you
+            want to look at each one.</p>
+        </div>
+        <locize-block title="The client edits the texts in Locize" href="https://www.locize.com/for-your-team" link="Locize for your team">
+          <p>The client changes the texts in a web editor, in every language, without you in between. A webhook can start a new
+            build of the site when texts change or a version is published, so the site shows what the client changed. It pays off when the client wants to change
+            texts often or on their own schedule, and when you look after many client sites.</p>
+        </locize-block>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screen 3: after the build -->
+  <section class="section">
+    <div class="wrap readable">
+      <h2>Before the site goes live</h2>
+      <ul class="checklist">
+        <li>Have each language read by someone who speaks it. An agent's translation is a first draft.</li>
+        <li>Open a page in each language and switch between them: the address, the <code>&lt;html lang&gt;</code> and the texts change together.</li>
+        <li>Decide who changes the texts later, and how. That is the section above.</li>
+      </ul>
+    </div>
+  </section>

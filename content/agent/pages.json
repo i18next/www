@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "build-multilingual-site",
+    "sentence": "Build me a website in two or more languages.",
+    "title": "Build a multilingual website with your agent",
+    "description": "A prompt for your agent to build a website in two or more languages with Astro or Next and i18next, and what to do when your client wants to change the texts later.",
+    "crumb": "New site",
+    "quote": "I need a website for my bakery in English and German, and I want my agent to build it.",
+    "whoHas": "For the owner who builds their own site, a bakery or a practice, and for the one-person agency that builds a site for each client with an agent and looks after it afterwards.",
+    "hint": "Replace the parts in brackets, then paste it into your agent"
+  },
+  {
+    "slug": "add-a-second-language",
+    "sentence": "Add a second language to my site or app.",
+    "title": "Add a second language to your site or app",
+    "description": "The texts are written into the code today: the prompt that has your agent move them into translation files with i18next-cli, add a language and check that every language is complete.",
+    "crumb": "Existing site or app",
+    "quote": "All our texts are written into the code. Add German.",
+    "whoHas": "For whoever has a working site or app in one language, with the texts inside the components, and wants a second language without going through every file by hand.",
+    "hint": "Replace the part in brackets, then paste it into your agent"
+  },
+  {
+    "slug": "client-changes-texts",
+    "sentence": "Let my client change the texts without a developer.",
+    "title": "Let your client change the texts without you",
+    "description": "Two ways for people who do not code to change a site's texts: the translation files themselves, with a check in the build, or an editor such as Locize.",
+    "crumb": "Texts for people who do not code",
+    "quote": "My client wants to change the wording on the site without waiting for me.",
+    "whoHas": "For the agency or freelancer who built a site and looks after it, and for the team where the people who write are not the people who code.",
+    "hint": "Replace the parts in brackets, then paste it into your agent"
+  },
+  {
+    "slug": "keep-languages-current",
+    "sentence": "Keep the other languages current when the English changes.",
+    "title": "Keep every language current when the English changes",
+    "description": "New texts reach every language through i18next-cli extract and status; changed texts under the same key need a step of their own. The prompt for both.",
+    "crumb": "Translations fall behind",
+    "quote": "We changed the pricing page in English last month. The German page still says the old thing.",
+    "whoHas": "For teams that keep changing the main language and ship in others: product teams, sites with many pages, anyone whose translations come a step behind.",
+    "hint": "Replace the parts in brackets, then paste it into your agent"
+  },
+  {
+    "slug": "findable-languages",
+    "sentence": "Make each language version findable.",
+    "title": "Make each language version findable",
+    "description": "One address per language, html lang, hreflang links and a sitemap with every language version: the prompt, and where it goes in Astro and Next.",
+    "crumb": "One address per language",
+    "quote": "The German pages exist, but searches in Germany show the English ones.",
+    "whoHas": "For sites that already speak more than one language and want search engines and agents to reach the right version of each page.",
+    "hint": "Replace the part in brackets, then paste it into your agent"
+  }
+]

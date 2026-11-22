@@ -1,0 +1,172 @@
+<!-- "With your agent", in G's markup. The previews run i18next in the page (G's assets/agent/*.js, loaded by
+     pages/with-your-agent/+Page.jsx). Each sentence of "What do you want to tell your agent?" leads to its page
+     (content/agent/). -->
+<!-- The head is the conversation; the promise is a quiet line above it -->
+  <section class="convo" aria-label="A conversation with an agent">
+    <div class="wrap">
+      <div class="talk-head">
+        <h1>Build it with your agent</h1>
+        <p>Two conversations as they could go: you say one sentence, your agent builds on i18next, and the texts end up in plain files in your repo.</p>
+      </div>
+
+      <div class="story-pick">
+        <div class="tabs" role="tablist" aria-label="Whose conversation">
+          <button role="tab" aria-selected="true" data-story-tab="site">An existing website</button>
+          <button role="tab" aria-selected="false" data-story-tab="app">An app I already have</button>
+        </div>
+        <a class="link-arrow" href="#your-turn">Skip to your own case</a>
+      </div>
+
+      <div data-story="site">
+      <div class="turn you">
+        <div class="who"><span class="name">You</span><span class="when">Tue 09:12</span></div>
+        <div class="said">
+          <p class="line">Make my bakery’s website available in German and French.</p>
+        </div>
+      </div>
+
+      <div class="turn agent">
+        <div class="who"><span class="name">Your agent</span><span class="when">09:15</span></div>
+        <div class="said">
+          <p>Done. I used <strong>i18next</strong>, an open-source library for translations: every text now lives in one plain
+            file per language, not inside the pages.</p>
+          <ol class="worklog" aria-label="What the agent did">
+            <li>Moved 38 texts out of the pages into <code>locales/en/common.json</code></li>
+            <li>Wrote <code>locales/de/common.json</code> and <code>locales/fr/common.json</code></li>
+            <li>One address per language, <code>/en/</code> <code>/de/</code> <code>/fr/</code>, with hreflang links between them</li>
+            <li>A language switcher in the header</li>
+            <li>Ran <code>i18next-cli status</code>: no text is missing in any language</li>
+          </ol>
+          <p class="worked">Worked for 3 minutes · 14 files changed</p>
+          <p>Here is the home page. Try the switcher, or change the number of loaves: French puts 0 in the singular, English and German in the plural.</p>
+        </div>
+      </div>
+
+      <!-- The result: the same page in three languages, live -->
+      <div class="result" aria-label="The bakery site in three languages">
+        <figure class="frame source" data-lng="en">
+          <figcaption>Before · English only</figcaption>
+          <div class="chrome"><span class="addr">kornfeld-bakery.com/</span></div>
+          <div class="mini"></div>
+        </figure>
+        <figure class="frame" data-lng="de">
+          <figcaption>After · in three languages</figcaption>
+          <div class="chrome"><span class="addr">kornfeld-bakery.com/<b data-addr>de</b>/</span></div>
+          <div class="mini"></div>
+        </figure>
+        <p class="result-note">The previews run i18next in this page, with the translation files your agent wrote.</p>
+      </div>
+
+      <div class="day"><span>A week later</span></div>
+      <div class="turn you">
+        <div class="who"><span class="name">You</span><span class="when">Mon 17:40</span></div>
+        <div class="said"><p class="line">Can our shop assistant reword the French tagline herself? She is from France.</p></div>
+      </div>
+      <div class="turn agent">
+        <div class="who"><span class="name">Your agent</span><span class="when">17:40</span></div>
+        <div class="said">
+          <p>Yes. It is one line of <code>locales/fr/common.json</code>. She can change it there, on GitHub or in any
+            editor, or ask any agent to do it. If she would rather not touch files, a translation management tool can sit on top
+            of the same files.</p>
+          <div class="code"><div class="code-head">locales/fr/common.json</div>
+<pre><code>{
+  <span class="tok-k">"tagline"</span>: <span class="tok-s">"Pain au levain et viennoiseries, cuits chaque matin."</span>,
+  <span class="tok-k">"loaves_one"</span>: <span class="tok-s">"{{count}} pain de seigle pour demain"</span>,
+  <span class="tok-k">"loaves_other"</span>: <span class="tok-s">"{{count}} pains de seigle pour demain"</span>
+}</code></pre></div>
+        </div>
+      </div>
+      </div>
+
+      <div data-story="app" hidden>
+      <div class="turn you">
+        <div class="who"><span class="name">You</span><span class="when">Wed 10:04</span></div>
+        <div class="said">
+          <p class="line">Add German to our React app.</p>
+        </div>
+      </div>
+
+      <div class="turn agent">
+        <div class="who"><span class="name">Your agent</span><span class="when">10:10</span></div>
+        <div class="said">
+          <p>Done. I set up <strong>i18next</strong> with react-i18next and moved the texts out of the components into one
+            file per language.</p>
+          <ol class="worklog" aria-label="What the agent did">
+            <li>Ran <code>i18next-cli instrument</code>: 214 texts in 31 components now go through <code>t()</code></li>
+            <li>Ran <code>i18next-cli extract</code>: all keys in <code>locales/en/translation.json</code></li>
+            <li>Wrote <code>locales/de/translation.json</code></li>
+            <li>A language switcher in the settings, the browser language as the default</li>
+            <li>Added <code>i18next-cli status</code> to CI: the build fails when a German text is missing</li>
+          </ol>
+          <p class="worked">Worked for 6 minutes · 38 files changed</p>
+          <p>Here is the invoice screen in both languages. Select a few invoices: each language gets its own plural form, and
+            amounts and dates follow its format.</p>
+        </div>
+      </div>
+
+      <div class="result app-result" aria-label="The app in two languages">
+        <figure class="frame source" data-lng="en">
+          <figcaption>Before · English only</figcaption>
+          <div class="chrome"><span class="addr">app.ledgerly.io</span></div>
+          <div class="mini"></div>
+        </figure>
+        <figure class="frame" data-lng="de">
+          <figcaption>After · in two languages</figcaption>
+          <div class="chrome"><span class="addr">app.ledgerly.io · <b data-addr>de</b></span></div>
+          <div class="mini"></div>
+        </figure>
+        <p class="result-note">The previews run i18next in this page, with the translation files your agent wrote.</p>
+      </div>
+
+      <div class="day"><span>A week later</span></div>
+      <div class="turn you">
+        <div class="who"><span class="name">You</span><span class="when">Wed 16:20</span></div>
+        <div class="said"><p class="line">Add an export button to the invoice list.</p></div>
+      </div>
+      <div class="turn agent">
+        <div class="who"><span class="name">Your agent</span><span class="when">16:24</span></div>
+        <div class="said">
+          <p>Done. The button and its two messages are in English and German from the start: I added the keys to both files in
+            the same change, and CI checked that no language is missing one.</p>
+          <div class="code"><div class="code-head">3 keys added · locales/en and locales/de</div>
+<pre><code><span class="tok-c">// locales/en/translation.json</span>
+<span class="add">+ <span class="tok-k">"export"</span>: <span class="tok-s">"Export as CSV"</span>,</span>
+<span class="add">+ <span class="tok-k">"exportDone_one"</span>: <span class="tok-s">"{{count}} invoice exported"</span>,</span>
+<span class="add">+ <span class="tok-k">"exportDone_other"</span>: <span class="tok-s">"{{count}} invoices exported"</span></span>
+
+<span class="tok-c">// locales/de/translation.json</span>
+<span class="add">+ <span class="tok-k">"export"</span>: <span class="tok-s">"Als CSV exportieren"</span>,</span>
+<span class="add">+ <span class="tok-k">"exportDone_one"</span>: <span class="tok-s">"{{count}} Rechnung exportiert"</span>,</span>
+<span class="add">+ <span class="tok-k">"exportDone_other"</span>: <span class="tok-s">"{{count}} Rechnungen exportiert"</span></span></code></pre></div>
+          <p class="ci-line"><span class="ci-ok">passed</span> <code>i18next-cli status</code> · de 217/217</p>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- After the conversation: an ordinary, short page -->
+  <section class="ask" id="your-turn">
+    <div class="wrap">
+      <div class="plain">
+        <h2>What do you want to tell your agent?</h2>
+        <p class="muted">Pick the sentence closest to yours. Each one leads to a prompt you can paste, and to the way your agent builds it.</p>
+          <ul class="say">
+            <li><a href="/with-your-agent/build-multilingual-site"><span class="q">Build me a website in two or more languages.</span><span class="for">New site · Astro or Next</span></a></li>
+            <li><a href="/with-your-agent/add-a-second-language"><span class="q">Add a second language to my site or app.</span><span class="for">All texts sit in the code today</span></a></li>
+            <li><a href="/with-your-agent/client-changes-texts"><span class="q">Let my client change the texts without a developer.</span><span class="for">The people who write do not code</span></a></li>
+            <li><a href="/with-your-agent/keep-languages-current"><span class="q">Keep the other languages current when the English changes.</span><span class="for">Translations fall behind</span></a></li>
+            <li><a href="/with-your-agent/findable-languages"><span class="q">Make each language version findable.</span><span class="for">One address per language, hreflang</span></a></li>
+          </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="plain-sec agent-end">
+    <div class="wrap">
+      <div class="plain">
+        <p class="muted">Writing the code yourself, or checking what your agent wrote? <a class="link-arrow" href="/introduction">The docs</a></p>
+      </div>
+    </div>
+  </section>

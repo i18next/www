@@ -1,0 +1,1312 @@
+{
+  "/introduction": {
+    "old:learn-once-translate-everywhere": [
+      "learn-once-translate-everywhere"
+    ],
+    "old:complete-solution": [
+      "complete-solution"
+    ],
+    "old:flexibility": [
+      "flexibility"
+    ],
+    "old:scalability": [
+      "scalability"
+    ],
+    "old:ecosystem": [
+      "ecosystem"
+    ]
+  },
+  "/overview/getting-started": {
+    "installation": [
+      "installation"
+    ],
+    "basicsample": [
+      "basic-sample"
+    ],
+    "old:load-in-deno": [
+      "load-in-deno"
+    ],
+    "old:load-from-cdn": [
+      "load-from-cdn"
+    ],
+    "old:important-caveat": [
+      "important-caveat"
+    ],
+    "old:extended-sample": [
+      "extended-sample"
+    ],
+    "old:supported-environments": [
+      "supported-environments"
+    ],
+    "old:choose-your-message-syntax": [
+      "choose-your-message-syntax"
+    ]
+  },
+  "/overview/api": {
+    "init": [
+      "init"
+    ],
+    "use": [
+      "use"
+    ],
+    "t": [
+      "t"
+    ],
+    "exists": [
+      "exists"
+    ],
+    "getfixedt": [
+      "getfixedt"
+    ],
+    "changelanguage": [
+      "changelanguage"
+    ],
+    "language": [
+      "language"
+    ],
+    "languages": [
+      "languages"
+    ],
+    "resolvedlanguage": [
+      "resolvedlanguage"
+    ],
+    "hasloadednamespace": [
+      "hasloadednamespace"
+    ],
+    "loadnamespaces": [
+      "loadnamespaces"
+    ],
+    "loadlanguages": [
+      "loadlanguages"
+    ],
+    "reloadresources": [
+      "reloadresources"
+    ],
+    "hydrate": [
+      "hydrate"
+    ],
+    "setdefaultnamespace": [
+      "setdefaultnamespace"
+    ],
+    "dir": [
+      "dir"
+    ],
+    "format": [
+      "format"
+    ],
+    "instancecreation": [
+      "instance-creation"
+    ],
+    "createinstance": [
+      "createinstance"
+    ],
+    "cloneinstance": [
+      "cloneinstance"
+    ],
+    "forkresourcestore": [
+      "forkresourcestore"
+    ],
+    "events": [
+      "events"
+    ],
+    "oninitialized": [
+      "oninitialized"
+    ],
+    "onlanguagechanged": [
+      "onlanguagechanged"
+    ],
+    "onloaded": [
+      "onloaded"
+    ],
+    "onfailedloading": [
+      "onfailedloading"
+    ],
+    "onmissingkey": [
+      "onmissingkey"
+    ],
+    "storeevents": [
+      "store-events"
+    ],
+    "onadded": [
+      "onadded"
+    ],
+    "onremoved": [
+      "onremoved"
+    ],
+    "resourcehandling": [
+      "resource-handling"
+    ],
+    "getresource": [
+      "getresource"
+    ],
+    "addresource": [
+      "addresource"
+    ],
+    "addresources": [
+      "addresources"
+    ],
+    "addresourcebundle": [
+      "addresourcebundle"
+    ],
+    "hasresourcebundle": [
+      "hasresourcebundle"
+    ],
+    "getdatabylanguage": [
+      "getdatabylanguage"
+    ],
+    "getresourcebundle": [
+      "getresourcebundle"
+    ],
+    "removeresourcebundle": [
+      "removeresourcebundle"
+    ]
+  },
+  "/overview/configuration-options": {
+    "logging": [
+      "logging"
+    ],
+    "missingkeys": [
+      "missing-keys"
+    ],
+    "translationdefaults": [
+      "translation-defaults"
+    ],
+    "old:languages-namespaces-resources": [
+      "languages-namespaces-resources"
+    ],
+    "old:plugin-options": [
+      "plugin-options"
+    ],
+    "old:others": [
+      "others"
+    ],
+    "old:initasync": [
+      "initasync"
+    ]
+  },
+  "/overview/plugins-and-utils": {
+    "i18nformats": [
+      "i18n-formats"
+    ],
+    "extractiontools": [
+      "extraction-tools"
+    ],
+    "utils": [
+      "utils"
+    ],
+    "backendextenders": [
+      "backend-extenders"
+    ],
+    "backends": [
+      "backends"
+    ],
+    "languagedetector": [
+      "language-detector"
+    ],
+    "postprocessors": [
+      "post-processors"
+    ],
+    "createyourownplugin": [
+      "create-your-own-plugin"
+    ],
+    "old:loggers": [
+      "loggers"
+    ]
+  },
+  "/overview/typescript": {
+    "someexamples": [
+      "some-examples"
+    ],
+    "customtypeoptions": [
+      "custom-type-options"
+    ],
+    "wrapperswithstrictinterpolationchecks": [
+      "wrappers-with-strictinterpolationchecks"
+    ],
+    "perpackagenamespacetypesinamonoreporesourcenamespacemap": [
+      "per-package-namespace-types-in-a-monorepo-resourcenamespacemap"
+    ],
+    "old:not-working-interpolation-values": [
+      "not-working-interpolation-values"
+    ],
+    "old:testing": [
+      "testing"
+    ],
+    "old:mocking-the-selector-function": [
+      "mocking-the-selector-function"
+    ],
+    "old:troubleshooting": [
+      "troubleshooting"
+    ],
+    "old:intellisense-not-working": [
+      "intellisense-not-working"
+    ],
+    "old:expected-0-arguments-but-got-1.-when-calling-t": [
+      "expected-0-arguments-but-got-1.-when-calling-t"
+    ],
+    "old:typechecking-got-slow-with-large-resource-files": [
+      "typechecking-got-slow-with-large-resource-files"
+    ],
+    "old:out-of-memory-oom-errors": [
+      "out-of-memory-oom-errors"
+    ],
+    "old:type-htmlattributes-less-than-t-greater-than-is-not-assignable-to-type": [
+      "type-htmlattributes-less-than-t-greater-than-is-not-assignable-to-type"
+    ],
+    "old:type-error-template-literal": [
+      "type-error-template-literal"
+    ],
+    "old:type-error-excessively-deep-and-possibly-infinite": [
+      "type-error-excessively-deep-and-possibly-infinite"
+    ],
+    "old:tagged-template-literal-react-i18next-only": [
+      "tagged-template-literal-react-i18next-only"
+    ],
+    "old:customize-t-function-return-when-returnobjects-is-set-to-true-but-customtypeoptions.resources-is-not": [
+      "customize-t-function-return-when-returnobjects-is-set-to-true-but-customtypeoptions.resources-is-not"
+    ],
+    "old:example-with-object": [
+      "example-with-object"
+    ],
+    "old:example-with-array": [
+      "example-with-array"
+    ],
+    "old:example-without-casting-using-type-parameters": [
+      "example-without-casting-using-type-parameters"
+    ],
+    "old:troubleshooting-less-than-23": [
+      "troubleshooting-less-than-23"
+    ],
+    "old:slow-compilation-time": [
+      "slow-compilation-time"
+    ],
+    "old:argument-of-type-defaulttfuncreturn-is-not-assignable-to-parameter-of-type-xyz": [
+      "argument-of-type-defaulttfuncreturn-is-not-assignable-to-parameter-of-type-xyz"
+    ],
+    "old:selector-api": [
+      "selector-api"
+    ],
+    "old:create-a-declaration-file": [
+      "create-a-declaration-file"
+    ]
+  },
+  "/translation-function/essentials": {
+    "accessingkeys": [
+      "accessing-keys"
+    ],
+    "passingadefaultvalue": [
+      "passing-a-default-value"
+    ],
+    "accessingkeysindifferentnamespaces": [
+      "accessing-keys-in-different-namespaces"
+    ],
+    "multiplefallbackkeys": [
+      "multiple-fallback-keys"
+    ],
+    "old:overview-options": [
+      "overview-options"
+    ]
+  },
+  "/translation-function/interpolation": {
+    "basic": [
+      "basic"
+    ],
+    "workingwithdatamodels": [
+      "working-with-data-models"
+    ],
+    "unescape": [
+      "unescape"
+    ],
+    "allinterpolationoptions": [
+      "all-interpolation-options"
+    ],
+    "old:additional-options": [
+      "additional-options"
+    ]
+  },
+  "/translation-function/formatting": {
+    "basicusage": [
+      "basic-usage"
+    ],
+    "usingmultipleformatters": [
+      "using-multiple-formatters"
+    ],
+    "builtinformats": [
+      "built-in-formats"
+    ],
+    "number": [
+      "number"
+    ],
+    "currency": [
+      "currency"
+    ],
+    "datetime": [
+      "datetime"
+    ],
+    "relativetime": [
+      "relativetime"
+    ],
+    "list": [
+      "list"
+    ],
+    "customformatter": [
+      "custom-formatter"
+    ],
+    "old:overriding-the-language-to-use": [
+      "overriding-the-language-to-use"
+    ],
+    "old:adding-custom-format-function": [
+      "adding-custom-format-function"
+    ],
+    "old:additional-options": [
+      "additional-options"
+    ]
+  },
+  "/translation-function/plurals": {
+    "singularplural": [
+      "singular-plural"
+    ],
+    "languageswithmultipleplurals": [
+      "languages-with-multiple-plurals"
+    ],
+    "whenapluralformismissing": [
+      "when-a-plural-form-is-missing"
+    ],
+    "ordinalplurals": [
+      "ordinal-plurals"
+    ],
+    "intervalplurals": [
+      "interval-plurals"
+    ],
+    "old:how-to-find-the-correct-plural-suffix": [
+      "how-to-find-the-correct-plural-suffix"
+    ]
+  },
+  "/translation-function/nesting": {
+    "basic": [
+      "basic"
+    ],
+    "passingoptionstonestings": [
+      "passing-options-to-nestings"
+    ],
+    "old:passing-nesting-to-interpolated": [
+      "passing-nesting-to-interpolated"
+    ],
+    "old:additional-options": [
+      "additional-options"
+    ],
+    "old:security-note-interpolated-values-inside-a-nesting-options-block": [
+      "security-note-interpolated-values-inside-a-nesting-options-block"
+    ]
+  },
+  "/translation-function/context": {
+    "basic": [
+      "basic"
+    ],
+    "combiningwithplurals": [
+      "combining-with-plurals"
+    ]
+  },
+  "/translation-function/objects-and-arrays": {
+    "objects": [
+      "objects"
+    ],
+    "arrays": [
+      "arrays"
+    ]
+  },
+  "/principles/best-practices": {
+    "old:implications-of-interpolation-for-localization": [
+      "implications-of-interpolation-for-localization"
+    ],
+    "old:example": [
+      "example"
+    ]
+  },
+  "/principles/namespaces": {
+    "sample": [
+      "sample"
+    ],
+    "old:semantic-reasons": [
+      "semantic-reasons"
+    ],
+    "old:technical-editorial-reasons": [
+      "technical-editorial-reasons"
+    ]
+  },
+  "/principles/fallback": {
+    "languagefallback": [
+      "language-fallback"
+    ],
+    "variantresolvingfallbackfromdialectsorscripts": [
+      "variant-resolving-fallback-from-dialects-or-scripts"
+    ],
+    "fallbacktodifferentlanguages": [
+      "fallback-to-different-languages"
+    ],
+    "namespacefallback": [
+      "namespace-fallback"
+    ],
+    "keyfallback": [
+      "key-fallback"
+    ],
+    "keynotfound": [
+      "key-not-found"
+    ],
+    "missingvaluesforexistingkeys": [
+      "missing-values-for-existing-keys"
+    ],
+    "callingwithfallbackkeys": [
+      "calling-with-fallback-keys"
+    ],
+    "old:core-elements": [
+      "core-elements"
+    ],
+    "old:keys": [
+      "keys"
+    ],
+    "old:example": [
+      "example"
+    ],
+    "old:example-1": [
+      "example-1"
+    ],
+    "old:example-2": [
+      "example-2"
+    ],
+    "old:languages": [
+      "languages"
+    ],
+    "old:namespaces": [
+      "namespaces"
+    ],
+    "old:resolution-order": [
+      "resolution-order"
+    ],
+    "old:id-1.-similar-keys": [
+      "id-1.-similar-keys"
+    ],
+    "old:id-2.-languages": [
+      "id-2.-languages"
+    ],
+    "old:id-3.-namespaces": [
+      "id-3.-namespaces"
+    ],
+    "old:id-4.-fallback-keys": [
+      "id-4.-fallback-keys"
+    ],
+    "old:id-5.-key-not-found": [
+      "id-5.-key-not-found"
+    ]
+  },
+  "/principles/plugins": {
+    "backend": [
+      "backend"
+    ],
+    "languagedetector": [
+      "languagedetector"
+    ],
+    "postprocessor": [
+      "post-processor"
+    ],
+    "logger": [
+      "logger"
+    ],
+    "formatter": [
+      "formatter"
+    ],
+    "i18nformat": [
+      "i18n-format"
+    ],
+    "helpfultips": [
+      "helpful-tips"
+    ],
+    "old:make-sure-to-set-the-plugin-type": [
+      "make-sure-to-set-the-plugin-type"
+    ],
+    "old:create-a-private-method-to-initialize-your-plugin": [
+      "create-a-private-method-to-initialize-your-plugin"
+    ]
+  },
+  "/how-to/add-or-load-translations": {
+    "addafterinit": [
+      "add-after-init"
+    ],
+    "combinedwithabackendplugin": [
+      "combined-with-a-backend-plugin"
+    ],
+    "old:lazy-load-in-memory-translations": [
+      "lazy-load-in-memory-translations"
+    ],
+    "old:add-on-init": [
+      "add-on-init"
+    ],
+    "old:load-using-a-backend-plugin": [
+      "load-using-a-backend-plugin"
+    ]
+  },
+  "/how-to/extracting-translations": {
+    "old:id-1-adding-new-strings-manually": [
+      "id-1-adding-new-strings-manually"
+    ],
+    "old:id-2-using-an-extraction-tool": [
+      "id-2-using-an-extraction-tool"
+    ],
+    "old:id-3-runtime-extraction": [
+      "id-3-runtime-extraction"
+    ]
+  },
+  "/how-to/using-icu-or-mf2": {
+    "setup": [
+      "setup"
+    ],
+    "whatkeepsworking": [
+      "what-keeps-working"
+    ],
+    "whatstopsworking": [
+      "what-stops-working"
+    ],
+    "debugwarnings": [
+      "debug-warnings"
+    ],
+    "otherdifferences": [
+      "other-differences"
+    ],
+    "typescript": [
+      "typescript"
+    ],
+    "i18nextcli": [
+      "i18next-cli"
+    ],
+    "react": [
+      "react"
+    ],
+    "nexti18nextapprouter": [
+      "next-i18next-app-router"
+    ]
+  },
+  "/how-to/ai-coding-agents": {
+    "setitupwithoneprompt": [
+      "set-it-up-with-one-prompt"
+    ],
+    "whatexists": [
+      "what-exists"
+    ],
+    "whattheytellyouragentaboutlocize": [
+      "what-they-tell-your-agent-about-locize"
+    ],
+    "whatneverhappens": [
+      "what-never-happens"
+    ],
+    "optingout": [
+      "opting-out"
+    ],
+    "old:making-your-agent-good-at-i18next": [
+      "making-your-agent-good-at-i18next"
+    ]
+  },
+  "/how-to/faq": {
+    "misc": [
+      "misc"
+    ],
+    "loadingissues": [
+      "loading-issues"
+    ],
+    "idontseemytranslations": [
+      "i-dont-see-my-translations"
+    ],
+    "translation": [
+      "translation"
+    ],
+    "howtotranslatetheresourcefiles": [
+      "how-to-translate-the-resource-files"
+    ],
+    "howtocheckthetranslationfilesformissingorbrokentranslations": [
+      "how-to-check-the-translation-files-for-missing-or-broken-translations"
+    ],
+    "howdoifindthestringsthatarestillhardcoded": [
+      "how-do-i-find-the-strings-that-are-still-hardcoded"
+    ],
+    "howdoiknowwhichpluralsuffixihavetouse": [
+      "how-do-i-know-which-plural-suffix-i-have-to-use"
+    ],
+    "whyaremypluralkeysnotworking": [
+      "why-are-my-plural-keys-not-working"
+    ],
+    "howshouldthelanguagecodesbeformatted": [
+      "how-should-the-language-codes-be-formatted"
+    ],
+    "howdoigetthecurrentlanguage": [
+      "how-do-i-get-the-current-language"
+    ],
+    "whydoesmyappkeepswitchingbacktoapreviouslydetectedlanguage": [
+      "why-does-my-app-keep-switching-back-to-a-previously-detected-language"
+    ],
+    "isi18nextoverkillforasmallsite": [
+      "is-i18next-overkill-for-a-small-site"
+    ],
+    "caniusemysourcetextasthekeygettextstyle": [
+      "can-i-use-my-source-text-as-the-key-gettext-style"
+    ],
+    "process": [
+      "process"
+    ],
+    "howtousei18nextinserverlessenvironments": [
+      "how-to-use-i18next-in-serverless-environments"
+    ],
+    "howcanisupporttheproject": [
+      "i18next-is-awesome.-how-can-i-support-the-project"
+    ],
+    "old:how-do-i-keep-overview-over-my-translation-progress": [
+      "how-do-i-keep-overview-over-my-translation-progress"
+    ],
+    "old:how-to-handle-with-changes-in-e2e-tests": [
+      "how-to-handle-with-changes-in-e2e-tests"
+    ]
+  },
+  "/misc/json-format": {
+    "old:i18next-json-v4": [
+      "i18next-json-v4"
+    ]
+  },
+  "/misc/migration-guide": {
+    "v26xxtov2700": [
+      "v26.x.x-to-v27.0.0"
+    ],
+    "keepthev26behavior": [
+      "keep-the-v26-behavior"
+    ],
+    "changeddefaults": [
+      "changed-defaults"
+    ],
+    "typescript": [
+      "typescript",
+      "typescript-1"
+    ],
+    "loggerandpostprocessorsperinstance": [
+      "logger-and-post-processors-per-instance"
+    ],
+    "languagecodesfromoutside": [
+      "language-codes-from-outside"
+    ],
+    "outputchanges": [
+      "output-changes"
+    ],
+    "createinstanceoptions": [
+      "createinstance-options"
+    ],
+    "keyseparatorfalse": [
+      "keyseparator-false"
+    ],
+    "removed": [
+      "removed"
+    ],
+    "forpluginauthors": [
+      "for-plugin-authors"
+    ],
+    "support": [
+      "support"
+    ],
+    "changesfrom26xpatchesinoneplace": [
+      "changes-from-26.x-patches-in-one-place"
+    ],
+    "selectorapi": [
+      "selector-api"
+    ],
+    "companionreleases": [
+      "companion-releases"
+    ],
+    "preparingforv27v2670": [
+      "preparing-for-v27-v26.7.0"
+    ],
+    "v25xxtov2600": [
+      "v25.x.x-to-v26.0.0"
+    ],
+    "migrationsteps": [
+      "migration-steps"
+    ],
+    "v253xtov2540": [
+      "v25.3.x-to-v25.4.0"
+    ],
+    "v24xxtov2500": [
+      "v24.x.x-to-v25.0.0"
+    ],
+    "v23xxtov2400": [
+      "v23.x.x-to-v24.0.0"
+    ],
+    "v22xxtov2300": [
+      "v22.x.x-to-v23.0.0"
+    ],
+    "redesignedtypescripttypes": [
+      "redesigned-typescript-types"
+    ],
+    "codemods": [
+      "codemods"
+    ],
+    "removedsetdebugfunctionininternallogger": [
+      "removed-setdebug-function-in-internal-logger"
+    ],
+    "changeddefaultvalueforreturnnulloptiontofalse": [
+      "changed-default-value-for-returnnull-option-to-false"
+    ],
+    "droppedsupportforoldbrowsersandnodejsv12": [
+      "dropped-support-for-old-browsers-and-node.js-less-than-v12"
+    ],
+    "prefixedordinalpluralkeys": [
+      "prefixed-ordinal-plural-keys"
+    ],
+    "old:v21.x.x-to-v22.0.0": [
+      "v21.x.x-to-v22.0.0"
+    ],
+    "old:v20.x.x-to-v21.0.0": [
+      "v20.x.x-to-v21.0.0"
+    ],
+    "old:json-format-v4-pluralization": [
+      "json-format-v4-pluralization"
+    ],
+    "old:skiponvariables-true": [
+      "skiponvariables-true"
+    ],
+    "old:natural-language-detection": [
+      "natural-language-detection"
+    ],
+    "old:removed-deprecated": [
+      "removed-deprecated"
+    ],
+    "old:new-resolvedlanguage": [
+      "new-resolvedlanguage"
+    ],
+    "old:defaultns": [
+      "defaultns"
+    ],
+    "old:v19.x.x-to-v20.0.0": [
+      "v19.x.x-to-v20.0.0"
+    ],
+    "old:v18.x.x-to-v19.0.0": [
+      "v18.x.x-to-v19.0.0"
+    ],
+    "old:v17.x.x-to-v18.0.0": [
+      "v17.x.x-to-v18.0.0"
+    ],
+    "old:v16.x.x-to-v17.0.0": [
+      "v16.x.x-to-v17.0.0"
+    ],
+    "old:v15.x.x-to-v16.0.0": [
+      "v15.x.x-to-v16.0.0"
+    ],
+    "old:v14.x.x-to-v15.0.0": [
+      "v14.x.x-to-v15.0.0"
+    ],
+    "old:v13.x.x-to-v14.0.0": [
+      "v13.x.x-to-v14.0.0"
+    ],
+    "old:v12.x.x-to-v13.0.0": [
+      "v12.x.x-to-v13.0.0"
+    ],
+    "old:v11.x.x-to-v12.0.0": [
+      "v11.x.x-to-v12.0.0"
+    ],
+    "old:v10.x.x-to-v11.0.0": [
+      "v10.x.x-to-v11.0.0"
+    ],
+    "old:v9.x.x-to-v10.0.0": [
+      "v9.x.x-to-v10.0.0"
+    ],
+    "old:v8.x.x-to-v9.0.0": [
+      "v8.x.x-to-v9.0.0"
+    ],
+    "old:v7.x.x-to-v8.0.0": [
+      "v7.x.x-to-v8.0.0"
+    ],
+    "old:v6.x.x-to-v7.0.0": [
+      "v6.x.x-to-v7.0.0"
+    ],
+    "old:v5.x.x-to-v6.0.0": [
+      "v5.x.x-to-v6.0.0"
+    ],
+    "old:v4.x.x-to-v5.0.0": [
+      "v4.x.x-to-v5.0.0"
+    ],
+    "old:v3.x.x-to-v4.0.0": [
+      "v3.x.x-to-v4.0.0"
+    ],
+    "old:v2.x.x-to-v3.0.0": [
+      "v2.x.x-to-v3.0.0"
+    ],
+    "old:v1.11.x-to-v2.0.0": [
+      "v1.11.x-to-v2.0.0"
+    ],
+    "old:getting-started": [
+      "getting-started"
+    ],
+    "old:browser": [
+      "browser"
+    ],
+    "old:nodejs": [
+      "nodejs"
+    ],
+    "old:nodejs--express": [
+      "nodejs--express"
+    ],
+    "old:running-v2.0.0-with-compatibility-flags": [
+      "running-v2.0.0-with-compatibility-flags"
+    ],
+    "old:not-supported-any-longer-in-v2.0.0": [
+      "not-supported-any-longer-in-v2.0.0"
+    ]
+  },
+  "/react": {
+    "old:what-is-react-i18next": [
+      "what-is-react-i18next"
+    ],
+    "old:what-does-my-code-look-like": [
+      "what-does-my-code-look-like"
+    ]
+  },
+  "/react/getting-started": {
+    "installation": [
+      "installation"
+    ],
+    "simplecontent": [
+      "simple-content"
+    ],
+    "configurei18next": [
+      "configure-i18next"
+    ],
+    "translationfiles": [
+      "translation-files"
+    ],
+    "translateyourcontent": [
+      "translate-your-content"
+    ],
+    "usingtheusetranslationhook": [
+      "using-the-usetranslation-hook"
+    ],
+    "nextsteps": [
+      "next-steps"
+    ],
+    "old:install-needed-dependencies": [
+      "install-needed-dependencies"
+    ],
+    "old:translation-how-to": [
+      "translation-how-to"
+    ],
+    "old:using-the-hook": [
+      "using-the-hook"
+    ],
+    "old:using-the-hoc": [
+      "using-the-hoc"
+    ],
+    "old:using-the-trans-component": [
+      "using-the-trans-component"
+    ],
+    "old:see-the-sample": [
+      "see-the-sample"
+    ],
+    "old:do-you-directly-want-to-see-an-example": [
+      "do-you-directly-want-to-see-an-example"
+    ],
+    "old:install-using-npm": [
+      "install-using-npm"
+    ],
+    "old:load-from-cdn": [
+      "load-from-cdn"
+    ],
+    "old:basic-sample": [
+      "basic-sample"
+    ],
+    "old:result": [
+      "result"
+    ],
+    "old:using-the-withtranslation-hoc": [
+      "using-the-withtranslation-hoc"
+    ],
+    "old:jsx-tree": [
+      "jsx-tree"
+    ]
+  },
+  "/react/guides/multiple-translation-files": {
+    "separatingtranslationfiles": [
+      "separating-translation-files"
+    ]
+  },
+  "/react/latest/i18next-instance": {},
+  "/react/latest/usetranslation-hook": {
+    "whatitdoes": [
+      "what-it-does"
+    ],
+    "usetranslationparams": [
+      "usetranslation-params"
+    ],
+    "loadingnamespaces": [
+      "loading-namespaces"
+    ],
+    "overridingthei18nextinstance": [
+      "overriding-the-i18next-instance"
+    ],
+    "optionalkeyprefixoption": [
+      "optional-keyprefix-option"
+    ],
+    "optionallngoption": [
+      "optional-lng-option"
+    ],
+    "notusingsuspense": [
+      "not-using-suspense"
+    ],
+    "troubleshooting": [
+      "troubleshooting"
+    ],
+    "old:when-to-use": [
+      "when-to-use"
+    ]
+  },
+  "/react/latest/withtranslation-hoc": {
+    "whatitdoes": [
+      "what-it-does"
+    ],
+    "withtranslationparams": [
+      "withtranslation-params"
+    ],
+    "loadingnamespaces": [
+      "loading-namespaces"
+    ],
+    "overridingthei18nextinstance": [
+      "overriding-the-i18next-instance"
+    ],
+    "notusingsuspense": [
+      "not-using-suspense"
+    ],
+    "howto": [
+      "how-to"
+    ],
+    "hoistnonreactstatics": [
+      "hoist-non-react-statics"
+    ],
+    "usetypescriptwithclasscomponents": [
+      "use-typescript-with-class-components"
+    ],
+    "old:when-to-use": [
+      "when-to-use"
+    ],
+    "old:use-ref-greater-than-v10.6.0": [
+      "use-ref-greater-than-v10.6.0"
+    ]
+  },
+  "/react/latest/translation-render-prop": {
+    "whatitdoes": [
+      "what-it-does"
+    ],
+    "translationparams": [
+      "translation-params"
+    ],
+    "loadingnamespaces": [
+      "loading-namespaces"
+    ],
+    "overridingthei18nextinstance": [
+      "overriding-the-i18next-instance"
+    ],
+    "old:when-to-use": [
+      "when-to-use"
+    ]
+  },
+  "/react/latest/trans-component": {
+    "interpolation": [
+      "interpolation"
+    ],
+    "typescriptusage": [
+      "typescript-usage"
+    ],
+    "plural": [
+      "plural"
+    ],
+    "howtogetthecorrecttranslationstring": [
+      "how-to-get-the-correct-translation-string"
+    ],
+    "transprops": [
+      "trans-props"
+    ],
+    "i18nextoptions": [
+      "i18next-options"
+    ],
+    "old:important-note": [
+      "important-note"
+    ],
+    "old:samples": [
+      "samples"
+    ],
+    "old:using-with-react-components": [
+      "using-with-react-components"
+    ],
+    "old:alternative-usage-which-lists-the-components-v11.6.0": [
+      "alternative-usage-which-lists-the-components-v11.6.0"
+    ],
+    "old:overriding-react-component-props-v11.5.0": [
+      "overriding-react-component-props-v11.5.0"
+    ],
+    "old:usage-with-simple-html-elements-like-less-than-br-greater-than-and-others-v10.4.0": [
+      "usage-with-simple-html-elements-like-less-than-br-greater-than-and-others-v10.4.0"
+    ],
+    "old:using-with-lists-v10.5.0": [
+      "using-with-lists-v10.5.0"
+    ],
+    "old:alternative-usage-components-array": [
+      "alternative-usage-components-array"
+    ]
+  },
+  "/react/latest/icu-trans-component": {
+    "samples": [
+      "samples"
+    ],
+    "usingwithreactcomponents": [
+      "using-with-react-components"
+    ],
+    "nestedelements": [
+      "nested-elements"
+    ],
+    "usageinreactservercomponents": [
+      "usage-in-react-server-components"
+    ],
+    "typescript": [
+      "typescript"
+    ],
+    "icutransprops": [
+      "icutrans-props"
+    ],
+    "old:important-note": [
+      "important-note"
+    ]
+  },
+  "/react/latest/i18nextprovider": {
+    "whatitdoes": [
+      "what-it-does"
+    ],
+    "i18nextproviderprops": [
+      "i18nextprovider-props"
+    ],
+    "old:when-to-use": [
+      "when-to-use"
+    ]
+  },
+  "/react/latest/ssr": {
+    "old:using-next.js": [
+      "using-next.js"
+    ],
+    "old:setting-the-i18next-instance-based-on-req": [
+      "setting-the-i18next-instance-based-on-req"
+    ],
+    "old:passing-initial-translations-initial-language-down-to-client": [
+      "passing-initial-translations-initial-language-down-to-client"
+    ],
+    "old:using-the-usessr-hook": [
+      "using-the-usessr-hook"
+    ],
+    "old:using-the-withssr-hoc": [
+      "using-the-withssr-hoc"
+    ]
+  },
+  "/react/latest/migrating-v17-to-v18": {
+    "installbothmajorstogether": [
+      "install-both-majors-together"
+    ],
+    "react18orlater": [
+      "react-18-or-later"
+    ],
+    "transrendersentitiesastextwhateverescapevalueis": [
+      "trans-renders-entities-as-text-whatever-escapevalue-is"
+    ],
+    "escapevalueguidance": [
+      "escapevalue-guidance"
+    ],
+    "transandicutransfollowlanguagechangesontheirown": [
+      "trans-and-icutrans-follow-language-changes-on-their-own"
+    ],
+    "thei18ninstancefromusetranslation": [
+      "the-i18n-instance-from-usetranslation"
+    ],
+    "reactoptionsareperinstance": [
+      "react-options-are-per-instance"
+    ],
+    "ssrusessrandwithssr": [
+      "ssr-usessr-and-withssr"
+    ],
+    "servercomponentscanimportfromreacti18next": [
+      "server-components-can-import-from-react-i18next"
+    ],
+    "typescript": [
+      "typescript"
+    ],
+    "allowobjectinhtmlchildrenneedsanimport": [
+      "allowobjectinhtmlchildren-needs-an-import"
+    ],
+    "i18ncontextcanbeundefined": [
+      "i18ncontext-can-be-undefined"
+    ],
+    "reactoptions": [
+      "reactoptions"
+    ],
+    "smallerchanges": [
+      "smaller-changes"
+    ],
+    "icumacroisremoved": [
+      "icu.macro-is-removed"
+    ],
+    "umdandamdbuilds": [
+      "umd-and-amd-builds"
+    ],
+    "package": [
+      "package"
+    ],
+    "tooling": [
+      "tooling"
+    ]
+  },
+  "/react/misc/using-with-icu-format": {
+    "usetheicuformat": [
+      "use-the-icu-format"
+    ],
+    "usingtfunction": [
+      "using-t-function"
+    ],
+    "old:using-babel-macros-trans-plural-select-removed-in-v18": [
+      "using-babel-macros-trans-plural-select-removed-in-v18"
+    ],
+    "old:extend-the-i18n-instance-with-icu-module": [
+      "extend-the-i18n-instance-with-icu-module"
+    ],
+    "old:using-the-trans-component": [
+      "using-the-trans-component"
+    ]
+  },
+  "/react/misc/testing": {
+    "testingwithoutstubbing": [
+      "testing-without-stubbing"
+    ],
+    "exampleconfigurationfortesting": [
+      "example-configuration-for-testing"
+    ],
+    "exampletestusingthisconfiguration": [
+      "example-test-using-this-configuration"
+    ]
+  },
+  "/how-to/cache-and-fallback": {
+    "old:browser-caching-with-local-storage": [
+      "browser-caching-with-local-storage"
+    ],
+    "old:server-side-caching-with-filesystem": [
+      "server-side-caching-with-filesystem"
+    ],
+    "old:next.js-caching-with-next-i18next": [
+      "next.js-caching-with-next-i18next"
+    ],
+    "old:browser-fallback-with-local-bundled-translations": [
+      "browser-fallback-with-local-bundled-translations"
+    ],
+    "old:server-side-fallback-with-filesystem": [
+      "server-side-fallback-with-filesystem"
+    ],
+    "old:you-can-also-lazy-load-the-in-memory-translations-i.e.-when-using-webpack": [
+      "you-can-also-lazy-load-the-in-memory-translations-i.e.-when-using-webpack"
+    ]
+  },
+  "/misc/older-migrations": {
+    "v21xxtov2200": [
+      "v21.x.x-to-v22.0.0"
+    ],
+    "v20xxtov2100": [
+      "v20.x.x-to-v21.0.0"
+    ],
+    "jsonformatv4pluralization": [
+      "json-format-v4-pluralization"
+    ],
+    "skiponvariablestrue": [
+      "skiponvariables-true"
+    ],
+    "naturallanguagedetection": [
+      "natural-language-detection"
+    ],
+    "removeddeprecated": [
+      "removed-deprecated"
+    ],
+    "newresolvedlanguage": [
+      "new-resolvedlanguage"
+    ],
+    "defaultns": [
+      "defaultns"
+    ],
+    "v19xxtov2000": [
+      "v19.x.x-to-v20.0.0"
+    ],
+    "v18xxtov1900": [
+      "v18.x.x-to-v19.0.0"
+    ],
+    "v17xxtov1800": [
+      "v17.x.x-to-v18.0.0"
+    ],
+    "v16xxtov1700": [
+      "v16.x.x-to-v17.0.0"
+    ],
+    "v15xxtov1600": [
+      "v15.x.x-to-v16.0.0"
+    ],
+    "v14xxtov1500": [
+      "v14.x.x-to-v15.0.0"
+    ],
+    "v13xxtov1400": [
+      "v13.x.x-to-v14.0.0"
+    ],
+    "v12xxtov1300": [
+      "v12.x.x-to-v13.0.0"
+    ],
+    "v11xxtov1200": [
+      "v11.x.x-to-v12.0.0"
+    ],
+    "v10xxtov1100": [
+      "v10.x.x-to-v11.0.0"
+    ],
+    "v9xxtov1000": [
+      "v9.x.x-to-v10.0.0"
+    ],
+    "v8xxtov900": [
+      "v8.x.x-to-v9.0.0"
+    ],
+    "v7xxtov800": [
+      "v7.x.x-to-v8.0.0"
+    ],
+    "v6xxtov700": [
+      "v6.x.x-to-v7.0.0"
+    ],
+    "v5xxtov600": [
+      "v5.x.x-to-v6.0.0"
+    ],
+    "v4xxtov500": [
+      "v4.x.x-to-v5.0.0"
+    ],
+    "v3xxtov400": [
+      "v3.x.x-to-v4.0.0"
+    ],
+    "v2xxtov300": [
+      "v2.x.x-to-v3.0.0"
+    ],
+    "v111xtov200": [
+      "v1.11.x-to-v2.0.0"
+    ],
+    "gettingstarted": [
+      "getting-started"
+    ],
+    "browser": [
+      "browser"
+    ],
+    "nodejs": [
+      "nodejs"
+    ],
+    "nodejsexpress": [
+      "nodejs--express"
+    ],
+    "runningv200withcompatibilityflags": [
+      "running-v2.0.0-with-compatibility-flags"
+    ],
+    "notsupportedanylongerinv200": [
+      "not-supported-any-longer-in-v2.0.0"
+    ]
+  }
+}
