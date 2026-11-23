@@ -29,7 +29,7 @@ For usage details please read the documentation of the plugin (readme file in th
 
 ## Writing your own plugin
 
-Each plugin type implements the interface below. You can provide a singleton or a prototype constructor (preferred for supporting multiple instances of i18next).
+Each plugin type implements the interface below. You can provide a singleton or a prototype constructor (preferred for supporting multiple instances of i18next). In TypeScript, i18next exports the types: `BackendModule`, `LanguageDetectorModule` (or `LanguageDetectorAsyncModule`), `PostProcessorModule`, `LoggerModule`, `FormatterModule` and `I18nFormatModule`. [Check your plugin](#check-your-plugin) with a short script once it is written.
 
 ### Backend
 
@@ -105,7 +105,7 @@ Language detector plugins are used to detect language in user land.
 }
 ```
 
-A detector that answers at once leaves out `async` and returns the language from `detect()` directly.
+A detector that answers at once leaves out `async` and returns the language from `detect()` directly. Either way, `detect` may return a list of languages, the most wanted first.
 
 A detector that takes the language from a request, a URL or storage can check it with `isSafeLanguageCode(code)`, exported by i18next: letters, digits, `-`, `_`, `@` and `.` (no `..`), at most 128 characters. It is not a BCP 47 check, so codes like `en_US` pass; markup, slashes and spaces do not.
 
@@ -200,6 +200,34 @@ i18n format plugins replace the i18next message format with another syntax, like
   // getResource: function(code, ns, key, options) {}
 }
 ```
+
+## Check your plugin
+
+A short script shows whether i18next uses your plugin as you expect. Put it next to the plugin (or let your coding agent write it from this page), change what the table below says for your plugin type, and run it with Node.js:
+
+```javascript
+// check-plugin.mjs
+import assert from 'node:assert/strict';
+import i18next from 'i18next';
+import MyPlugin from './my-plugin.js';
+
+const i18n = i18next.createInstance();
+await i18n.use(MyPlugin).init({
+  lng: 'en',
+  resources: { en: { translation: { greeting: 'Hello {{name}}' } } },
+});
+assert.equal(i18n.t('greeting', { name: 'Ada' }), 'Hello Ada');
+console.log('ok');
+```
+
+| Plugin type | Change in the script | Check |
+| --- | --- | --- |
+| Backend | Leave out `resources`; pass your `backend` options | `t` returns the value your backend loaded |
+| languageDetector | Leave out `lng`; add `fallbackLng: 'en'` | `i18n.language` is what your `detect` returns |
+| Post processor | Nothing | `t('greeting', { name: 'Ada', postProcess: 'nameOfProcessor' })` returns the changed value |
+| Logger | Add `debug: true` | Your `log` was called with an array (i18next logs `initialized`) |
+| Formatter | Use the value `'{{date, myFormat}}'` | `t` returns what your `format` returns for `myFormat` |
+| i18n format | Write the resources in your syntax | `t` returns the message as your `parse` formats it |
 
 ## Helpful tips
 
