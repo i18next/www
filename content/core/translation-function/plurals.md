@@ -59,7 +59,7 @@ i18next.t('key', {count: 100}); // -> "other"
 
 ## When a plural form is missing
 
-Since v27.1.0, when the form selected for `count` is missing, i18next uses the `_other` form of the same language before it moves on to the fallback language, as CLDR does ([lateral inheritance](https://www.unicode.org/reports/tr35/#Lateral_Inheritance)). Within one language the order is `key_<form>`, then the plain `key`, then `key_other`. With a context, `key_<context>_other` comes before `key_other`; with `ordinal`, the last one is `key_ordinal_other`. A `defaultValue_other` is used the same way, after `defaultValue`.
+Since v27.1.0, when the form selected for `count` is missing, i18next uses the `_other` form of the same language before it moves on to the fallback language, as CLDR does ([lateral inheritance](https://www.unicode.org/reports/tr35/#Lateral_Inheritance)). Within one language the order is `key_<form>`, then the plain `key`, then `key_other`. With a context, `key_<context>_other` comes before `key_other`; with `ordinal`, the last one is `key_ordinal_other`. A `defaultValue_other` is used the same way, after `defaultValue`. Since v27.2.6, an empty form default counts, as `defaultValue: ''` does: with `defaultValue_zero: ''`, `count: 0` gives `''`, not the `defaultValue_other` text.
 
 This matters for French, Spanish, Italian and Portuguese: current CLDR data gives them a `many` form for exact millions, so files with only `_one` and `_other` miss it.
 
