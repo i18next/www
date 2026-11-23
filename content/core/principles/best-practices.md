@@ -71,5 +71,3 @@ Translations are often longer than English: don't size buttons and labels to the
 ## 9. Keep the files in sync
 
 Run `extract` after each change and `status` in CI ([Extracting translations](../how-to/extracting-translations.md)).
-
-Thanks to [Jenny Reid](https://github.com/jennylreid) for the example in rule 1.
