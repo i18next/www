@@ -1,5 +1,5 @@
 ---
-description: "Translators need whole sentences: a sentence built from pieces at run time cannot be right in every language."
+description: "Rules for user-facing texts that translators can get right in every language."
 ---
 
 # Best practices
