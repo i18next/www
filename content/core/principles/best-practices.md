@@ -71,3 +71,5 @@ Translations are often longer than English: don't size buttons and labels to the
 ## 9. Keep the files in sync
 
 Run `extract` after each change and `status` in CI ([Extracting translations](../how-to/extracting-translations.md)).
+
+For your coding agent, a skill with these rules: `npx skills add i18next/i18n-best-practices` ([i18next/i18n-best-practices](https://github.com/i18next/i18n-best-practices)).
