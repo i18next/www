@@ -4,6 +4,14 @@ description: "Translators need whole sentences: a sentence built from pieces at 
 
 # Best practices
 
+For your coding agent, a skill with these rules:
+
+```bash
+npx skills add i18next/i18n-best-practices
+```
+
+Source and the full text: [i18next/i18n-best-practices](https://github.com/i18next/i18n-best-practices).
+
 ## 1. Keep sentences whole <a id="implications-of-interpolation-for-localization"></a><a id="example"></a>
 
 Use placeholders only for values known at run time, such as times and user input. A value that is known before, such as a payment type, becomes its own whole sentence.
@@ -71,5 +79,3 @@ Translations are often longer than English: don't size buttons and labels to the
 ## 9. Keep the files in sync
 
 Run `extract` after each change and `status` in CI ([Extracting translations](../how-to/extracting-translations.md)).
-
-For your coding agent, a skill with these rules: `npx skills add i18next/i18n-best-practices` ([i18next/i18n-best-practices](https://github.com/i18next/i18n-best-practices)).
