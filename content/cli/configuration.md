@@ -164,7 +164,7 @@ export default defineConfig({
 });
 ```
 
-- A name adds an attribute to the recommended list (`recommendedAcceptedAttributes`), `!name` removes it. `'*'` applies to every element first, then the element's own entry, so an element can add back what `'*'` removed.
+- A name adds an attribute to the recommended list (`recommendedAcceptedAttributes`), `!name` removes it. For `instrument`, a component's props also hold text by their name or a sentence as their value (see [instrument](commands/instrument.md#what-it-transforms)); `!name` switches that off for the prop as well. `'*'` applies to every element first, then the element's own entry, so an element can add back what `'*'` removed.
 - Attribute names are case-insensitive (`helpText` and `helptext` are the same attribute).
 - Element keys are case-sensitive, as in JSX (`Select` is a component, `select` the HTML element), and match the imported name through aliases: after `import { PageTitle as PT }`, `<PT>` uses the `PageTitle` entry.
 - `<Select.Option>` uses the `Select.Option` entry when there is one, otherwise `Option`.
