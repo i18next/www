@@ -4,7 +4,7 @@ description: "Record where each key is used in your code, with a small plugin."
 
 # Location metadata tracking
 
-The extractor knows the file, line and column of every key. A small plugin writes them into one file:
+The extractor knows the file, line and column of every key it finds in a `t()` call or a `<Trans>` component (since i18next-cli 1.94.3 also with `context` and no `count`, and with `count` under `disablePlurals`). Keys from `// t()` comments and `$t()` nesting carry no location. A small plugin writes the locations into one file and skips keys without one:
 
 ```typescript
 import { writeFile, mkdir } from 'node:fs/promises';
