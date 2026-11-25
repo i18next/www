@@ -78,7 +78,7 @@ Not with `enableSelector: 'optimize'`. Calling `t` reports:
 
 > TS2589: Type instantiation is excessively deep and possibly infinite.
 
-The declaration file is set up wrong, or the resources are very deep. Check the declaration against [Typed keys](../overview/typescript.md), or use `enableSelector: 'optimize'`.
+The declaration file is set up wrong, or the resources are very deep. Check the declaration against [Typed keys](../overview/typescript.md), or use `enableSelector: 'optimize'`. Before i18next 27.2.8, a `t()` call with `context` could cause it too when there are several large namespaces; update i18next.
 
 ### Tagged template literal (`react-i18next` only)
 
