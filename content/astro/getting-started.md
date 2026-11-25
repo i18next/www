@@ -32,7 +32,7 @@ initializes one i18next instance; each page asks it for a `t()` bound to its lan
 
 ```ts
 // src/i18n/index.ts
-import i18next from 'i18next'
+import i18next, { type Namespace } from 'i18next'
 
 const files = import.meta.glob<Record<string, string>>('./locales/*/*.json', {
   eager: true,
@@ -57,7 +57,7 @@ i18n.init({
 })
 
 // A t() for one language and, if given, one namespace.
-export const getT = (lang: Lang, ns?: string) => i18n.getFixedT(lang, ns)
+export const getT = <N extends Namespace>(lang: Lang, ns?: N) => i18n.getFixedT(lang, ns)
 
 // The same page in another language: /en/order/ -> /de/order/
 export function pathForLang (pathname: string, target: Lang) {
@@ -182,6 +182,9 @@ export default defineConfig({
   }
 }
 ```
+
+With TypeScript, [`npx i18next-cli types`](/cli/commands/types) generates the types of your keys, and a mistyped key
+fails the type check ([TypeScript](/overview/typescript)).
 
 Requires Node.js 22.12, i18next-cli 1.92.0 and i18next-cli-plugin-astro 1.1.0 or newer.
 
