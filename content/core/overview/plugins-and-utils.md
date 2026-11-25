@@ -4,7 +4,7 @@ description: "Packages that add to i18next, by the i18next team and by the commu
 
 # Plugins and utils
 
-The list holds projects with a change in the last twelve months, finished projects that work with the current i18next and are still used (marked as finished), and projects the maintainers keep (checked 2026-11-21).
+The list holds projects with a change in the last twelve months, finished projects that work with the current i18next and are still used (marked as finished), and projects the maintainers keep (checked 2026-11-21). Plugins whose purpose is to connect to a paid service are not listed; the one exception is the sponsor, marked, at the end of Backends.
 
 ## i18n formats
 
@@ -57,8 +57,10 @@ What each syntax is and what stops working with it: [Other formats](../misc/othe
 * **[i18next-fetch-backend](https://github.com/perrin4869/i18next-fetch-backend):** loads translations with the browser's fetch.
 * **[i18next-fluent-backend](https://github.com/i18next/i18next-fluent-backend):** loads Fluent `.ftl` files.
 * **[i18next-electron-fs-backend](https://github.com/reZach/i18next-electron-fs-backend):** loads translations from the filesystem in an Electron app.
-* **[i18next-locize-backend](https://github.com/locize/i18next-locize-backend):** loads translations from the Locize CDN.
-* **[Transifex backend](https://github.com/transifex/transifex-javascript/tree/master/packages/i18next):** loads translations from Transifex Native.
+
+{% locize %}
+**Sponsor: [i18next-locize-backend](https://github.com/locize/i18next-locize-backend)** loads translations from the Locize CDN. Locize is the translation management service of the people who maintain i18next; its customers fund i18next.
+{% endlocize %}
 
 ## Language detector
 
