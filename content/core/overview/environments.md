@@ -13,7 +13,7 @@ With a bundler, install it with npm: the package holds a CommonJS, an ES module 
 Without a bundler, load it with a script tag from a CDN, with a fixed version:
 
 ```html
-<script src="https://unpkg.com/i18next@27.2.3/dist/umd/i18next.min.js"></script>
+<script src="https://unpkg.com/i18next@27.2.10/dist/umd/i18next.min.js"></script>
 ```
 
 [cdnjs](https://cdnjs.com/libraries/i18next) and [jsDelivr](https://www.jsdelivr.com/package/npm/i18next) serve the same files.
